@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>王煜 - 具身智能与机器人作品集 | Tsinghua AIR</title>
+    <style>
+        :root {
+            --bg-color: #0d0d0d;
+            --text-color: #f0f0f0;
+            --accent-color: #4CAF50; /* 突出颜色，可改为蓝色或青色 */
+            --sub-text-color: #aaa;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        /* 头部介绍 */
+        header {
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 20px;
+            margin-bottom: 40px;
+        }
+
+        header h1 {
+            color: var(--text-color);
+            font-size: 2.8em;
+            margin-bottom: 5px;
+        }
+
+        header h2 {
+            color: var(--accent-color);
+            font-size: 1.2em;
+            margin-top: 0;
+            font-weight: 400;
+        }
+
+        header p {
+            color: var(--sub-text-color);
+            font-size: 1em;
+            max-width: 800px;
+        }
+
+        /* 模块样式 */
+        section {
+            margin-bottom: 60px;
+            padding-top: 20px;
+        }
+
+        section h3 {
+            color: var(--text-color);
+            font-size: 2em;
+            border-left: 5px solid var(--accent-color);
+            padding-left: 15px;
+            margin-bottom: 30px;
+        }
+
+        /* 项目卡片 */
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .project-card {
+            background-color: #1a1a1a;
+            padding: 25px;
+            border-radius: 8px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(76, 175, 80, 0.3);
+        }
+
+        .project-card h4 {
+            color: var(--accent-color);
+            font-size: 1.4em;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .project-card .role {
+            color: #ccc;
+            font-size: 0.9em;
+            margin-bottom: 15px;
+        }
+
+        .project-card ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .project-card ul li {
+            margin-bottom: 10px;
+            border-left: 3px solid #333;
+            padding-left: 10px;
+            font-size: 0.95em;
+        }
+        
+        /* 技能和联系方式 */
+        .skills-list, .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .skills-list span {
+            background-color: #222;
+            color: var(--sub-text-color);
+            padding: 8px 15px;
+            border-radius: 4px;
+            font-size: 0.9em;
+            border: 1px solid #333;
+        }
+
+        .skills-list strong {
+            color: var(--accent-color);
+            font-weight: 600;
+        }
+
+        .contact-info a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        /* 响应式调整 */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            section h3 {
+                font-size: 1.6em;
+            }
+        }
+
+        .awards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+        }
+
+        .award-item {
+            background-color: #1a1a1a;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 5px solid var(--accent-color);
+        }
+
+        .award-item p {
+            margin: 5px 0;
+        }
+
+        .award-item .level {
+            font-weight: bold;
+            color: var(--text-color);
+        }
+
+        .award-item .rank {
+            font-size: 0.9em;
+            color: var(--sub-text-color);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <header>
+            <h1>王煜 | [cite_start]WANG YU [cite: 1]</h1>
+            <h2>清华 AIR 冬令营申请作品集</h2>
+            <p>
+                [cite_start]**定位：** 具备极强工程落地能力的具身智能与机器人开发者。我来自中南大学机械设计制造及其自动化专业 [cite: 8][cite_start]，专业排名前12% [cite: 9][cite_start]，拥有丰富的国家级机器人竞赛经验（共获国家级奖项8项） [cite: 14]。我专注于从机械本体设计到嵌入式控制的系统化创新，渴望在清华 AIR 探索 AI 算法赋能复杂机械系统的无限可能。
+            </p>
+            <div class="contact-info">
+                [cite_start]<a href="mailto:wyu5714@163.com">邮箱: wyu5714@163.com [cite: 4]</a>
+                [cite_start]<span>电话: 15211000955 [cite: 2]</span>
+            </div>
+        </header>
+
+        <section id="projects">
+            <h3>01. 核心项目 (Key Projects)</h3>
+            <div class="project-grid">
+
+                <div class="project-card">
+                    [cite_start]<h4>多传感融合八自由度并联四足机器人系统设计 [cite: 18]</h4>
+                    [cite_start]<p class="role">项目负责人、总体方案设计 (2025.1-2025.8) [cite: 19, 21]</p>
+                    <ul>
+                        [cite_start]<li>**系统创新：** 基于筝形四连杆并联机构设计四足机器人整机，通过计算机辅助设计实现轻量化与强度平衡 [cite: 20]。</li>
+                        [cite_start]<li>**控制与迭代：** 负责整体方案设计，经3次迭代，基本实现目标功能 [cite: 21]。</li>
+                        [cite_start]<li>**主要成果：** 获 ROBOCON 仿生足式机器人挑战赛 竞速赛、障碍赛、越野赛**全国二等奖** [cite: 22]。</li>
+                    </ul>
+                    </div>
+
+                <div class="project-card">
+                    [cite_start]<h4>双目视觉自适应全向轮月壤采集机器人 [cite: 26]</h4>
+                    [cite_start]<p class="role">核心机械结构设计 (2024.4-2025.4) [cite: 27]</p>
+                    <ul>
+                        [cite_start]<li>**结构与鲁棒性：** 设计具有强机械鲁棒性与卓越地形适应性的全向轮底盘，使用**自适应悬挂机构**增强通过性 [cite: 28]。</li>
+                        [cite_start]<li>**算法结合：** 整机具备路径识别与复杂地形重建能力，使用 SolidWorks 设计了包含逾千零件的机械模型 [cite: 28]。</li>
+                        [cite_start]<li>**主要成果：** 获 RoboMaster 高校联盟赛**一等奖**；授权**1项实用新型专利** [cite: 29]。</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    [cite_start]<h4>精确轨迹高稳定性新能源凸轮车 [cite: 23]</h4>
+                    [cite_start]<p class="role">机构设计与实现 (2024.9-2025.8) [cite: 24]</p>
+                    <ul>
+                        [cite_start]<li>**核心机构：** 基于自主设计的高精度凸轮转向机构，通过**AI设计软件**计算轮廓，实现精确转向 [cite: 24]。</li>
+                        [cite_start]<li>**技术亮点：** 经过三次迭代，通过纯机械结构实现了高精度的固定轨迹运动，展现出良好的重复性与结构稳定性 [cite: 24]。</li>
+                        [cite_start]<li>**主要成果：** 获 中国大学生工程实践与创新能力大赛**全国一等奖** [cite: 25]。</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="awards">
+            <h3>02. 荣誉与奖项 (Selected Awards)</h3>
+            <div class="awards-grid">
+                <div class="award-item">
+                    [cite_start]<p class="level">全国一等奖 [cite: 35]</p>
+                    [cite_start]<p>中国大学生工程实践与创新能力大赛 [cite: 30]</p>
+                    [cite_start]<p class="rank">排名第二 [cite: 30]</p>
+                </div>
+                <div class="award-item">
+                    [cite_start]<p class="level">全国二等奖 [cite: 36]</p>
+                    [cite_start]<p>ROBOCON 仿生足式机器人挑战赛 [cite: 32]</p>
+                    [cite_start]<p class="rank">排名第一 (队长) [cite: 32, 43]</p>
+                </div>
+                <div class="award-item">
+                    [cite_start]<p class="level">全国二等奖 [cite: 36]</p>
+                    [cite_start]<p>ROBOCON 机器人篮球竞技赛 [cite: 31]</p>
+                    [cite_start]<p class="rank">排名第三 [cite: 31]</p>
+                </div>
+                <div class="award-item">
+                    [cite_start]<p class="level">全国三等奖 [cite: 36]</p>
+                    [cite_start]<p>中国大学生机械工程创新创意大赛铸造工艺设计赛 [cite: 33]</p>
+                    <p class="rank">核心队员</p>
+                </div>
+                <div class="award-item">
+                    [cite_start]<p class="level">校级一等奖学金 [cite: 39]</p>
+                    [cite_start]<p>中南大学 2023-2024 学年 [cite: 39]</p>
+                </div>
+                <div class="award-item">
+                    [cite_start]<p class="level">优秀学生/优秀共青团员 [cite: 37, 38]</p>
+                    [cite_start]<p>中南大学 2023-2025 学年 [cite: 37, 38]</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h3>03. 核心技能栈 (Technical Skills)</h3>
+            <div class="skills-list">
+                [cite_start]<span>**机械设计:** SolidWorks (熟练) [cite: 15]</span>
+                [cite_start]<span>**制图与仿真:** AutoCAD (熟练) [cite: 15][cite_start], 工程制图 [cite: 12]</span>
+                [cite_start]<span>**嵌入式:** STM32 嵌入式开发 [cite: 15]</span>
+                [cite_start]<span>**编程/工具:** Matlab 应用 [cite: 12][cite_start], 计算方法 [cite: 12]</span>
+                [cite_start]<span>**工程能力:** 千件级大型装配体设计 [cite: 15][cite_start], 工程迭代优化 [cite: 16]</span>
+                [cite_start]<span>**语言:** CET-4, CET-6 (501) [cite: 10]</span>
+            </div>
+        </section>
+
+    </div>
+</body>
+</html>
