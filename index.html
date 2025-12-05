@@ -7,9 +7,9 @@
     <style>
         /* 科技感配色方案 */
         :root {
-            --bg-color: #121212; /* 深灰色背景 */
-            --card-bg-color: #1e1e1e; /* 项目卡片背景 */
-            --text-color: #e0e0e0; /* 柔和白色文字 */
+            --bg-color: #121212; 
+            --card-bg-color: #1e1e1e; 
+            --text-color: #e0e0e0; 
             --accent-color: #00bcd4; /* 青色/蓝绿色作为主强调色 */
             --sub-text-color: #a0a0a0;
         }
@@ -43,7 +43,7 @@
 
         header h1 {
             color: var(--text-color);
-            font-size: 3em; /* 增大标题 */
+            font-size: 3em; 
             margin-bottom: 5px;
             font-weight: 700;
         }
@@ -82,18 +82,27 @@
             gap: 30px;
         }
 
+        /* 新增：链接样式 */
+        .project-link {
+            text-decoration: none; /* 移除下划线 */
+            color: inherit; /* 继承父元素颜色 */
+            display: block;
+        }
+
         .project-card {
             background-color: var(--card-bg-color);
             padding: 25px;
             border-radius: 8px;
             transition: transform 0.3s, box-shadow 0.3s;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-            border: 1px solid #282828; /* 增加边框层次感 */
+            border: 1px solid #282828; 
+            height: 100%; /* 确保卡片高度一致 */
         }
 
         .project-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 8px 30px rgba(0, 188, 212, 0.4); /* Hover使用强调色阴影 */
+            box-shadow: 0 8px 30px rgba(0, 188, 212, 0.4); 
+            cursor: pointer;
         }
 
         .project-card h4 {
@@ -123,7 +132,7 @@
         }
         
         .project-card li strong {
-            color: var(--text-color); /* 关键词使用亮色 */
+            color: var(--text-color); 
         }
 
         /* 技能和联系方式 */
@@ -139,7 +148,7 @@
             padding: 8px 15px;
             border-radius: 4px;
             font-size: 0.9em;
-            border: 1px solid var(--accent-color); /* 技能标签使用强调色边框 */
+            border: 1px solid var(--accent-color); 
         }
 
         .skills-list strong {
@@ -215,35 +224,41 @@
             <h3>01. 核心项目 (Key Projects)</h3>
             <div class="project-grid">
 
-                <div class="project-card">
-                    <h4>多传感融合八自由度并联四足机器人系统设计</h4>
-                    <p class="role">项目负责人、总体方案设计 (2025.1-2025.8)</p>
-                    <ul>
-                        <li>**系统创新：** 基于筝形四连杆并联机构设计四足机器人整机，通过计算机辅助设计实现轻量化与强度平衡。</li>
-                        <li>**控制与迭代：** 负责整体方案设计，实现多传感器融合控制，经3次迭代，基本实现目标功能。</li>
-                        <li>**主要成果：** 获 ROBOCON 仿生足式机器人挑战赛 竞速赛、障碍赛、越野赛**全国二等奖**。</li>
-                    </ul>
+                <a href="project-quadruped.html" class="project-link">
+                    <div class="project-card">
+                        <h4>多传感融合八自由度并联四足机器人系统设计</h4>
+                        <p class="role">项目负责人、总体方案设计 (2025.1-2025.8)</p>
+                        <ul>
+                            <li>**系统创新：** 基于筝形四连杆并联机构设计四足机器人整机，通过计算机辅助设计实现轻量化与强度平衡。</li>
+                            <li>**控制与迭代：** 负责整体方案设计，实现多传感器融合控制，经3次迭代，基本实现目标功能。</li>
+                            <li>**主要成果：** 获 ROBOCON 仿生足式机器人挑战赛 竞速赛、障碍赛、越野赛**全国二等奖**。</li>
+                        </ul>
                     </div>
+                </a>
 
-                <div class="project-card">
-                    <h4>双目视觉自适应全向轮月壤采集机器人</h4>
-                    <p class="role">核心机械结构设计 (2024.4-2025.4)</p>
-                    <ul>
-                        <li>**结构与鲁棒性：** 设计具有强机械鲁棒性与卓越地形适应性的全向轮底盘，使用**自适应悬挂机构**增强通过性。</li>
-                        <li>**算法结合：** 整机具备路径识别与复杂地形重建能力，使用 SolidWorks 设计了包含逾千零件的机械模型。</li>
-                        <li>**主要成果：** 获 RoboMaster 高校联盟赛**一等奖**；授权**1项实用新型专利**。</li>
-                    </ul>
+                <a href="project-lunar.html" class="project-link">
+                    <div class="project-card">
+                        <h4>双目视觉自适应全向轮月壤采集机器人</h4>
+                        <p class="role">核心机械结构设计 (2024.4-2025.4)</p>
+                        <ul>
+                            <li>**结构与鲁棒性：** 设计具有强机械鲁棒性与卓越地形适应性的全向轮底盘，使用**自适应悬挂机构**增强通过性。</li>
+                            <li>**算法结合：** 整机具备路径识别与复杂地形重建能力，使用 SolidWorks 设计了包含逾千零件的机械模型。</li>
+                            <li>**主要成果：** 获 RoboMaster 高校联盟赛**一等奖**；授权**1项实用新型专利**。</li>
+                        </ul>
                     </div>
+                </a>
 
-                <div class="project-card">
-                    <h4>精确轨迹高稳定性新能源凸轮车</h4>
-                    <p class="role">机构设计与实现 (2024.9-2025.8)</p>
-                    <ul>
-                        <li>**核心机构：** 基于自主设计的高精度凸轮转向机构，通过**AI设计软件**计算轮廓，实现精确转向。</li>
-                        <li>**技术亮点：** 经过三次迭代，通过纯机械结构实现了高精度的固定轨迹运动，展现出良好的重复性与结构稳定性。</li>
-                        <li>**主要成果：** 获 中国大学生工程实践与创新能力大赛**全国一等奖**。</li>
-                    </ul>
+                <a href="project-cam.html" class="project-link">
+                    <div class="project-card">
+                        <h4>精确轨迹高稳定性新能源凸轮车</h4>
+                        <p class="role">机构设计与实现 (2024.9-2025.8)</p>
+                        <ul>
+                            <li>**核心机构：** 基于自主设计的高精度凸轮转向机构，通过**AI设计软件**计算轮廓，实现精确转向。</li>
+                            <li>**技术亮点：** 经过三次迭代，通过纯机械结构实现了高精度的固定轨迹运动，展现出良好的重复性与结构稳定性。</li>
+                            <li>**主要成果：** 获 中国大学生工程实践与创新能力大赛**全国一等奖**。</li>
+                        </ul>
                     </div>
+                </a>
 
             </div>
         </section>
