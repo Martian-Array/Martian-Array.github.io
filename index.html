@@ -203,6 +203,93 @@
             font-size: 0.9em;
             color: var(--sub-text-color);
         }
+        /* 新增：联系我 section 样式 (匹配截图) */
+#contact-me-section {
+    background-color: #1a2430; /* 截图中的深蓝色/海军色背景 */
+    padding: 60px 0;
+    margin-top: 60px;
+    width: 100%;
+}
+#contact-me-section .contact-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+/* 覆盖原有的 h3 样式，让标题更突出 */
+#contact-me-section h3 {
+    color: #fff;
+    font-size: 2.5em;
+    margin-bottom: 5px; 
+    font-weight: 700;
+    /* 移除左侧边框和内边距，使其居中 */
+    border-left: none !important; 
+    padding-left: 0 !important;
+}
+
+.title-underline {
+    width: 50px; 
+    height: 3px; 
+    background-color: var(--accent-color); 
+    margin: 0 auto 50px auto;
+}
+
+/* 核心布局：在大屏幕上使用 Grid 确保完美三列对齐 */
+.social-links {
+    display: grid;
+    /* 三列等宽布局 */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 40px; 
+    margin: 0 auto;
+    max-width: 800px; /* 限制链接区域宽度，防止在超宽屏幕上拉伸过度 */
+}
+
+/* 链接项：确保文本居中 */
+.social-item {
+    color: var(--text-color);
+    text-decoration: none;
+    display: block;
+    transition: color 0.3s;
+    text-align: center; 
+}
+
+/* 图标容器：圆形边框及动画效果 */
+.icon-box {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 10px auto;
+    border: 2px solid var(--text-color);
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px; 
+    color: var(--text-color);
+    transition: border-color 0.3s, color 0.3s, transform 0.3s;
+    font-family: 'Arial', sans-serif; 
+}
+
+.social-item:hover .icon-box {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+    transform: scale(1.1);
+}
+
+.social-item p {
+    margin: 0;
+    font-size: 1em;
+}
+
+/* 响应式调整：针对手机屏幕 (小于600px) */
+@media (max-width: 600px) {
+    .social-links {
+        display: flex; /* 恢复 flex 布局 */
+        flex-direction: column; /* 垂直堆叠 */
+        gap: 30px;
+        align-items: center; /* 确保整个项居中 */
+    }
+}
     </style>
 </head>
 <body>
