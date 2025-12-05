@@ -41,34 +41,39 @@
             <p>机构设计与实现 (2024.9 - 2025.8)</p>
         </div>
 
-        <div class="media-placeholder">
-            【此处嵌入凸轮车实物视频或高清图片】<br>
-            展示精确轨迹运动的画面
-        </div>
+     <div class="media-placeholder" 
+     style="
+        display: grid; 
+        grid-template-columns: repeat(3, 1fr); /* 创建三列，每列等宽 */
+        gap: 20px; /* 列间距 */
+        height: auto; 
+        padding: 0; 
+        background-color: transparent; /* 移除背景色 */
+     "
+>
+    <div style="border: 1px solid #333; border-radius: 4px; overflow: hidden;">
+        <img src="images/校赛车.jpg" alt="图 1" style="width: 100%; height: auto; display: block;">
+    </div>
+
+    <div style="border: 1px solid #333; border-radius: 4px; overflow: hidden;">
+        <img src="images/省赛车.jpg" alt="四足机构细节图" style="width: 100%; height: auto; display: block;">
+    </div>
+
+    <div style="border: 1px solid #333; border-radius: 4px; overflow: hidden;">
+        <img src="images/国赛车.jpg" alt="四足机物图" style="width: 100%; height: auto; display: block;">
+    </div>
+</div>
+
+        
 
         <div class="content-section">
-            <h2>核心机构与设计方法</h2>
+            <h2>项目简述</h2>
             <ul>
-                [cite_start]<li>**核心机构：** 基于自主设计的高精度**凸轮转向机构**，设计了一款能沿固定轨迹精确运动的温差电动车 [cite: 24]。</li>
-                [cite_start]<li>**AI辅助设计：** 利用**AI设计软件**计算凸轮轮廓，并通过平推机构实现精确转向 [cite: 24]。</li>
-            </ul>
-        </div>
-
-        <div class="content-section">
-            <h2>工程实现与稳定性</h2>
-            <ul>
-                [cite_start]<li>**实现过程：** 经过自主加工、装配及**三次迭代**，通过**纯机械结构**实现了高精度的固定轨迹运动 [cite: 24]。</li>
-                [cite_start]<li>**性能验证：** 在竞赛场地测试中，该作品展现出**良好的重复性**与**出色的结构稳定性** [cite: 24]。</li>
-            </ul>
-        </div>
-
-        <div class="content-section">
-            <h2>主要成果与荣誉</h2>
-            <ul>
-                [cite_start]<li>**竞赛奖项：** 获中国大学生工程实践与创新能力大赛**全国一等奖** [cite: 25]。</li>
+                <li>获中国大学生工程实践与创新能力大赛全国一等奖，我主要负责新能源车凸轮转向机构设计与生物质能转化装置的设计。</li>
+                <li>此作品的亮点在于高精度、轨迹一致性。</li>
             </ul>
             <p style="text-align: right; margin-top: 20px;">
-                <a href="[此处放置详细设计报告或代码库链接]" style="color: var(--accent-color); text-decoration: none; font-weight: bold;">
+                <a target="_blank" href="docs/温差电动车任务命题文档.pdf" style="color: var(--accent-color); text-decoration: none; font-weight: bold;">
                     查看详细技术文档 »
                 </a>
             </p>
