@@ -4,292 +4,342 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>王煜 - 个人作品集 | CSU</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
     <style>
-        /* 科技感配色方案 */
+        /* --- 核心变量定义 --- */
         :root {
-            --bg-color: #121212; 
-            --card-bg-color: #1e1e1e; 
-            --text-color: #e0e0e0; 
-            --accent-color: #00bcd4; /* 青色/蓝绿色作为主强调色 */
-            --sub-text-color: #a0a0a0;
+            --bg-base: #020617; /* 极深蓝黑背景 */
+            --text-primary: #f1f5f9;
+            --text-secondary: #94a3b8;
+            --accent-gradient: linear-gradient(135deg, #22d3ee 0%, #3b82f6 100%); /* 青-蓝渐变 */
+            --card-bg: rgba(30, 41, 59, 0.4); /* 半透明卡片背景 */
+            --card-border: rgba(255, 255, 255, 0.08);
+            --card-hover-border: rgba(56, 189, 248, 0.5);
+            --glow-color: rgba(56, 189, 248, 0.15);
         }
 
+        /* --- 全局样式 --- */
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            line-height: 1.6;
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background-color: var(--bg-base);
+            color: var(--text-primary);
+            line-height: 1.7;
             margin: 0;
             padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            /* 背景氛围光晕 */
+            background-image: 
+                radial-gradient(circle at 15% 15%, rgba(6, 182, 212, 0.08) 0%, transparent 40%),
+                radial-gradient(circle at 85% 85%, rgba(59, 130, 246, 0.08) 0%, transparent 40%);
             min-height: 100vh;
         }
 
         .container {
             width: 90%;
-            max-width: 1100px;
-            margin: 40px auto;
-            padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
         }
 
-        /* 头部介绍 */
+        a { text-decoration: none; color: inherit; transition: 0.3s; }
+
+        /* --- 头部 Hero Section --- */
         header {
-            border-bottom: 2px solid var(--accent-color);
-            padding-bottom: 20px;
-            margin-bottom: 40px;
+            text-align: center;
+            padding: 80px 0 60px;
+            animation: fadeIn 0.8s ease-out;
         }
 
         header h1 {
-            color: var(--text-color);
-            font-size: 3em; 
-            margin-bottom: 5px;
-            font-weight: 700;
+            font-size: 3.5rem;
+            margin: 0 0 10px;
+            font-weight: 800;
+            /* 文字渐变效果 */
+            background: var(--accent-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent; 
+            letter-spacing: -1px;
         }
 
         header h2 {
-            color: var(--accent-color);
-            font-size: 1.3em;
-            margin-top: 0;
+            font-size: 1.5rem;
+            color: var(--text-secondary);
             font-weight: 400;
+            margin-bottom: 25px;
         }
 
         header p {
-            color: var(--sub-text-color);
-            font-size: 1em;
-            max-width: 800px;
+            max-width: 700px;
+            margin: 0 auto 35px;
+            color: var(--text-secondary);
+            font-size: 1.05rem;
         }
 
-        /* 模块样式 */
-        section {
-            margin-bottom: 60px;
-            padding-top: 20px;
+        /* 邮箱按钮样式 */
+        .contact-capsule {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--card-border);
+            padding: 10px 25px;
+            border-radius: 50px;
+            font-size: 0.95rem;
+            color: var(--text-primary);
+            transition: all 0.3s;
         }
+
+        .contact-capsule:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: #38bdf8;
+            box-shadow: 0 0 15px var(--glow-color);
+        }
+
+        /* --- 标题通用样式 --- */
+        section { margin-bottom: 100px; }
 
         section h3 {
-            color: var(--text-color);
-            font-size: 2.2em;
-            border-left: 5px solid var(--accent-color);
-            padding-left: 15px;
+            font-size: 1.8rem;
             margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            color: var(--text-primary);
         }
 
-        /* 项目卡片 */
+        /* 标题左侧装饰条 */
+        section h3::before {
+            content: '';
+            display: block;
+            width: 4px;
+            height: 24px;
+            background: var(--accent-gradient);
+            border-radius: 2px;
+        }
+
+        /* --- 01. 项目卡片 (Glassmorphism) --- */
         .project-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 25px;
         }
 
-        /* 新增：链接样式 */
-        .project-link {
-            text-decoration: none; /* 移除下划线 */
-            color: inherit; /* 继承父元素颜色 */
-            display: block;
-        }
+        .project-link { display: block; height: 100%; }
 
         .project-card {
-            background-color: var(--card-bg-color);
-            padding: 25px;
-            border-radius: 8px;
-            transition: transform 0.3s, box-shadow 0.3s;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-            border: 1px solid #282828; 
-            height: 100%; /* 确保卡片高度一致 */
+            background: var(--card-bg);
+            backdrop-filter: blur(12px); /* 磨砂玻璃效果 */
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
+            padding: 30px;
+            height: 100%; /* 等高 */
+            box-sizing: border-box;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex;
+            flex-direction: column;
         }
 
         .project-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 30px rgba(0, 188, 212, 0.4); 
-            cursor: pointer;
+            transform: translateY(-8px);
+            border-color: var(--card-hover-border);
+            box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.5);
         }
 
         .project-card h4 {
-            color: var(--accent-color);
-            font-size: 1.5em;
-            margin-top: 0;
-            margin-bottom: 10px;
-            font-weight: 600;
+            font-size: 1.3rem;
+            margin: 0 0 12px;
+            color: #e2e8f0;
+            font-weight: 700;
+        }
+
+        .project-card:hover h4 {
+            color: #38bdf8; /* 悬停时标题变蓝 */
+            transition: color 0.3s;
         }
 
         .project-card .role {
-            color: var(--sub-text-color);
-            font-size: 0.9em;
-            margin-bottom: 15px;
-        }
-
-        .project-card ul {
-            list-style: none;
-            padding-left: 0;
-        }
-
-        .project-card ul li {
-            margin-bottom: 10px;
-            border-left: 3px solid #3a3a3a;
-            padding-left: 10px;
-            font-size: 0.95em;
-        }
-        
-        .project-card li strong {
-            color: var(--text-color); 
-        }
-
-        /* 技能和联系方式 */
-        .skills-list, .contact-info {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 15px;
-        }
-
-        .skills-list span {
-            background-color: #282828;
-            color: var(--sub-text-color);
-            padding: 8px 15px;
-            border-radius: 4px;
-            font-size: 0.9em;
-            border: 1px solid var(--accent-color); 
-        }
-
-        .skills-list strong {
-            color: var(--accent-color);
+            font-size: 0.85rem;
+            color: #64748b;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 20px;
+            display: block;
             font-weight: 600;
         }
 
-        .contact-info a {
-            color: var(--accent-color);
-            text-decoration: none;
-            font-weight: 500;
+        .project-card ul {
+            padding-left: 0;
+            list-style: none;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            flex-grow: 1; /* 撑开高度 */
         }
 
-        .contact-info a:hover {
-            text-decoration: underline;
+        .project-card li {
+            position: relative;
+            padding-left: 18px;
+            margin-bottom: 10px;
         }
 
-        /* 响应式调整 */
-        @media (max-width: 768px) {
-            header h1 {
-                font-size: 2.5em;
-            }
-            section h3 {
-                font-size: 1.8em;
-            }
+        /* 自定义列表圆点 */
+        .project-card li::before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: #38bdf8;
+            font-weight: bold;
         }
 
+        /* --- 02. 荣誉奖项 (Grid) --- */
         .awards-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 15px;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
         }
 
         .award-item {
-            background-color: var(--card-bg-color);
-            padding: 15px;
-            border-radius: 8px;
-            border-left: 5px solid var(--accent-color);
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+            background: linear-gradient(145deg, rgba(30,41,59,0.3), rgba(15,23,42,0.3));
+            border: 1px solid var(--card-border);
+            padding: 20px;
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            transition: transform 0.3s;
         }
 
-        .award-item p {
-            margin: 5px 0;
+        .award-item:hover {
+            transform: translateY(-3px);
+            border-color: rgba(255,255,255,0.15);
         }
 
         .award-item .level {
-            font-weight: bold;
-            color: var(--text-color);
+            color: #22d3ee;
+            font-weight: 700;
+            font-size: 0.9rem;
         }
 
-        .award-item .rank {
-            font-size: 0.9em;
-            color: var(--sub-text-color);
+        .award-item p { margin: 0; font-size: 0.95rem; line-height: 1.5; }
+        .award-item .rank { font-size: 0.85rem; color: #64748b; margin-top: auto; }
+
+        /* --- 03. 技能标签 (Tags) --- */
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
         }
-     
-#contact-me-section {
-    background-color: #121212; 
-    padding: 60px 0;
-    margin-top: 60px;
-    width: 100%;
-}
-#contact-me-section .contact-container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 20px;
-    text-align: center;
-}
 
-/* 覆盖原有的 h3 样式，让标题更突出 */
-#contact-me-section h3 {
-    color: #fff;
-    font-size: 2.5em;
-    margin-bottom: 5px; 
-    font-weight: 700;
-    /* 移除左侧边框和内边距，使其居中 */
-    border-left: none !important; 
-    padding-left: 0 !important;
-}
+        .skill-tag {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--card-border);
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            transition: 0.3s;
+        }
 
-.title-underline {
-    width: 50px; 
-    height: 3px; 
-    background-color: var(--accent-color); 
-    margin: 0 auto 50px auto;
-}
+        .skill-tag:hover {
+            background: rgba(255, 255, 255, 0.08);
+            border-color: #38bdf8;
+            color: #fff;
+        }
 
-/* 核心布局：在大屏幕上使用 Grid 确保完美三列对齐 */
-.social-links {
-    display: grid;
-    /* 三列等宽布局 */
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 40px; 
-    margin: 0 auto;
-    max-width: 800px; /* 限制链接区域宽度，防止在超宽屏幕上拉伸过度 */
-}
+        .skill-tag strong { color: #e2e8f0; font-weight: 600; }
 
-/* 链接项：确保文本居中 */
-.social-item {
-    color: var(--text-color);
-    text-decoration: none;
-    display: block;
-    transition: color 0.3s;
-    text-align: center; 
-}
+        /* --- 底部联系我 Section --- */
+        #contact-me-section {
+            /* 独立的深色背景块 */
+            background: linear-gradient(to top, #020617, #0f172a);
+            padding: 80px 0;
+            margin-top: 80px;
+            border-top: 1px solid var(--card-border);
+        }
 
-/* 图标容器：圆形边框及动画效果 */
-.icon-box {
-    width: 60px;
-    height: 60px;
-    margin: 0 auto 10px auto;
-    border: 2px solid var(--text-color);
-    border-radius: 50%; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px; 
-    color: var(--text-color);
-    transition: border-color 0.3s, color 0.3s, transform 0.3s;
-    font-family: 'Arial', sans-serif; 
-}
+        #contact-me-section .contact-container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 0 20px;
+        }
 
-.social-item:hover .icon-box {
-    border-color: var(--accent-color);
-    color: var(--accent-color);
-    transform: scale(1.1);
-}
+        #contact-me-section h3 {
+            justify-content: center; /* 标题居中 */
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        
+        #contact-me-section h3::before { display: none; } /* 底部标题不需要侧边条 */
 
-.social-item p {
-    margin: 0;
-    font-size: 1em;
-}
+        .title-underline {
+            width: 60px;
+            height: 4px;
+            background: var(--accent-gradient);
+            margin: 0 auto 50px;
+            border-radius: 2px;
+        }
 
-/* 响应式调整：针对手机屏幕 (小于600px) */
-@media (max-width: 600px) {
-    .social-links {
-        display: flex; /* 恢复 flex 布局 */
-        flex-direction: column; /* 垂直堆叠 */
-        gap: 30px;
-        align-items: center; /* 确保整个项居中 */
-    }
-}
+        /* 社交链接 Grid 布局 */
+        .social-links {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+            margin: 0 auto;
+        }
+
+        .social-item {
+            display: block;
+            text-align: center;
+        }
+
+        .icon-box {
+            width: 70px;
+            height: 70px;
+            margin: 0 auto 15px;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .social-item:hover .icon-box {
+            background: var(--accent-gradient);
+            border-color: transparent;
+            color: #fff;
+            transform: scale(1.1);
+            box-shadow: 0 0 20px rgba(34, 211, 238, 0.4);
+        }
+
+        .social-item p {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            margin: 0;
+            transition: color 0.3s;
+        }
+
+        .social-item:hover p { color: #38bdf8; }
+
+        /* 简单的淡入动画 */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* 移动端适配 */
+        @media (max-width: 768px) {
+            header h1 { font-size: 2.5rem; }
+            .project-grid { grid-template-columns: 1fr; }
+            .social-links { 
+                grid-template-columns: 1fr; /* 手机上单列堆叠 */
+                gap: 30px;
+                max-width: 200px; /* 限制宽度让其居中好看 */
+            }
+        }
     </style>
 </head>
 <body>
@@ -299,10 +349,13 @@
             <h1>WANG YU</h1>
             <h2>个人作品集</h2>
             <p>
-               中南大学机械专业大三在读，拥有丰富的国家级机器人竞赛经验（共获国家级奖项8项）。擅长机器人本体结构设计，不断探索运动控制与感知技术。此页面将永久保持更新~
+                中南大学机械专业大三在读，拥有丰富的国家级机器人竞赛经验（共获国家级奖项8项）。<br>
+                擅长机器人本体结构设计，不断探索运动控制与感知技术。<br>此页面将永久保持更新~
             </p>
-            <div class="contact-info">
-                <a href="mailto:wyu5714@163.com">邮箱: wyu5714@163.com</a>
+            <div class="contact-action">
+                <a href="mailto:wyu5714@163.com" class="contact-capsule">
+                    ✉️ wyu5714@163.com
+                </a>
             </div>
         </header>
 
@@ -313,10 +366,10 @@
                 <a href="project-quadruped.html" class="project-link">
                     <div class="project-card">
                         <h4>ROBOCON八自由度并联四足机器人系统设计</h4>
-                        <p class="role">项目负责人、总体方案设计 (2025.1-2025.8)</p>
+                        <span class="role">项目负责人、总体方案设计 (2025.1-2025.8)</span>
                         <ul>
-                            <li>系统创新： 基于筝形四连杆并联机构设计四足机器人整机，通过计算机辅助设计实现轻量化与强度平衡。</li>
-                            <li>主要成果：获 ROBOCON 仿生足式机器人挑战赛 竞速赛、障碍赛、越野赛全国二等奖。</li>
+                            <li>基于**筝形四连杆并联机构**设计四足机器人整机，通过计算机辅助设计实现轻量化与强度平衡。</li>
+                            <li>获 ROBOCON 仿生足式机器人挑战赛 竞速赛、障碍赛、越野赛全国二等奖。</li>
                         </ul>
                     </div>
                 </a>
@@ -324,10 +377,10 @@
                 <a href="project-lunar.html" class="project-link">
                     <div class="project-card">
                         <h4>月壤采集全向轮机器人</h4>
-                        <p class="role">核心机械结构设计 (2023.11-2024.6)</p>
+                        <span class="role">核心机械结构设计 (2023.11-2024.6)</span>
                         <ul>
-                            <li>结构与鲁棒性： 设计具有强机械鲁棒性与卓越地形适应性的全向轮底盘，使用独立悬挂机构增强通过性。</li>
-                            <li>主要成果： 获 RoboMaster 高校联盟赛一等奖；授权1项实用新型专利；申请一项国家级大创并获得优秀结题。</li>
+                            <li>设计具有**强机械鲁棒性**与卓越地形适应性的全向轮底盘，使用独立悬挂机构增强通过性。</li>
+                            <li>获 RoboMaster 高校联盟赛一等奖；授权1项实用新型专利；申请一项国家级大创并获得优秀结题。</li>
                         </ul>
                     </div>
                 </a>
@@ -335,10 +388,10 @@
                 <a href="project-cam.html" class="project-link">
                     <div class="project-card">
                         <h4>精确轨迹高稳定性新能源凸轮车</h4>
-                        <p class="role">核心机构设计与实现 (2024.9-2025.8)</p>
+                        <span class="role">核心机构设计与实现 (2024.9-2025.8)</span>
                         <ul>
-                            <li>技术亮点： 经过校、省、国赛十余次迭代，通过纯机械结构实现了高精度的固定轨迹运动，展现出良好的重复性与结构稳定性。</li>
-                            <li>主要成果： 获 中国大学生工程实践与创新能力大赛全国一等奖。</li>
+                            <li>经过校、省、国赛十余次迭代，通过纯机械结构实现了高精度的固定轨迹运动，展现出良好的重复性与结构稳定性。</li>
+                            <li>获 中国大学生工程实践与创新能力大赛全国一等奖。</li>
                         </ul>
                     </div>
                 </a>
@@ -350,39 +403,42 @@
             <h3>02. 荣誉与奖项 (Selected Awards)</h3>
             <div class="awards-grid">
                 <div class="award-item">
-                    <p class="level">全国一等奖</p>
+                    <span class="level">全国一等奖</span>
                     <p>中国大学生工程实践与创新能力大赛</p>
-                    <p class="rank">排名第二</p>
+                    <span class="rank">排名第二</span>
                 </div>
                 <div class="award-item">
-                    <p class="level">全国二等奖</p>
+                    <span class="level">全国二等奖</span>
                     <p>ROBOCON 仿生足式机器人挑战赛</p>
-                    <p class="rank">排名第一  (队长/创始人)</p>
+                    <span class="rank">排名第一 (队长/创始人)</span>
                 </div>
                 <div class="award-item">
-                    <p class="level">全国二等奖</p>
+                    <span class="level">全国二等奖</span>
                     <p>ROBOCON 机器人篮球竞技赛</p>
-                    <p class="rank">排名第三</p>
+                    <span class="rank">排名第三</span>
                 </div>
                 <div class="award-item">
-                    <p class="level">全国三等奖</p>
+                    <span class="level">全国三等奖</span>
                     <p>中国大学生机械工程创新创意大赛铸造工艺设计赛</p>
-                    <p class="rank">核心队员</p>
+                    <span class="rank">核心队员</span>
+                </div>
             </div>
         </section>
 
         <section id="skills">
             <h3>03. 核心技能栈 (Technical Skills)</h3>
             <div class="skills-list">
-                <span>结构设计: SolidWorks (熟练),Fusion360</span>
-                <span>制图与仿真: AutoCAD (熟练), Adams</span>
-                <span>嵌入式: STM32 开发</span>
-                <span>编程/工具: python/C/C#, MATLAB/Mathematica/GeoGebra</span>
-                <span>工程能力: 机器人整体系统设计, 工程迭代优化</span>
+                <div class="skill-tag"><strong>结构设计:</strong> SolidWorks (熟练), Fusion360</div>
+                <div class="skill-tag"><strong>制图与仿真:</strong> AutoCAD (熟练), Adams</div>
+                <div class="skill-tag"><strong>嵌入式:</strong> STM32 开发</div>
+                <div class="skill-tag"><strong>编程/工具:</strong> Python/C/C#, MATLAB, GeoGebra</div>
+                <div class="skill-tag"><strong>工程能力:</strong> 机器人整体系统设计, 迭代优化</div>
             </div>
         </section>
 
-<section id="contact-me-section">
+    </div>
+
+    <section id="contact-me-section">
         <div class="contact-container">
             <h3>您在哪里还能找到我</h3>
             <div class="title-underline"></div>
@@ -396,7 +452,7 @@
                 
                 <a href="https://github.com/Martian-Array" class="social-item" target="_blank">
                     <div class="icon-box">🐙</div>
-                    <p>github</p>
+                    <p>GitHub</p>
                 </a>
 
                 <a href="https://x.com/MartianArray" class="social-item" target="_blank">
@@ -407,7 +463,5 @@
             </div>
         </div>
     </section>
-        
-    </div>
 </body>
 </html>
