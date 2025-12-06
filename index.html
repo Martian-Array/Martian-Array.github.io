@@ -258,8 +258,7 @@
         }
 
         #contact-me-section .contact-container {
-            /* 🚀 调整点 1: 缩小容器宽度，让图标更集中 */
-            max-width: 300px; 
+            max-width: 400px; /* 调整后的最大宽度 */
             margin: 0 auto;
             text-align: center;
             padding: 0 20px;
@@ -268,18 +267,20 @@
         #contact-me-section h3 {
             justify-content: center; /* 标题居中 */
             font-size: 2rem;
-            margin-bottom: 50px; /* 移除横线后，增加标题与图标的间距 */
+            margin-bottom: 50px; /* 增大间距，弥补删除横线的空间 */
         }
         
         #contact-me-section h3::before { display: none; } /* 底部标题不需要侧边条 */
 
+        /* .title-underline 已删除，不需要该 CSS 规则 */
+
         /* 社交链接 Grid 布局 */
         .social-links {
             display: grid;
-            /* 🚀 调整点 2: 保持三列布局 */
+            /* 调整为两列布局 */
             grid-template-columns: repeat(3, 1fr); 
-            /* 🚀 调整点 3: 减小图标间距，使之更紧凑 */
-            gap: 15px; 
+            gap: 40px 60px; /* 调整间距 */
+            max-width: 360px; /* 限制社交链接网格的宽度 */
             margin: 0 auto;
         }
 
@@ -289,7 +290,7 @@
         }
 
         .icon-box {
-            /* 🚀 调整点 4: 保持图标缩小后的尺寸 */
+            /* 🚀 调整点 1: 缩小图标 */
             width: 50px;
             height: 50px;
             margin: 0 auto 10px;
