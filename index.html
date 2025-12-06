@@ -29,7 +29,7 @@
             line-height: 1.7;
             margin: 0;
             padding: 0;
-            /* 恢复背景氛围光晕 */
+            /* 恢复背景氛围光晕，这是整个页面的背景 */
             background-image: 
                 radial-gradient(circle at 15% 15%, rgba(6, 182, 212, 0.08) 0%, transparent 40%),
                 radial-gradient(circle at 85% 85%, rgba(59, 130, 246, 0.08) 0%, transparent 40%);
@@ -177,7 +177,6 @@
             color: var(--text-secondary);
             font-size: 0.95rem;
             flex-grow: 1;
-            /* 文本恢复左对齐是默认行为，不需要特殊设置 */
         }
 
         .project-card li {
@@ -252,17 +251,16 @@
 
         .skill-tag strong { color: #e2e8f0; font-weight: 600; }
 
-        /* --- 底部联系我 Section --- */
+        /* --- 底部联系我 Section: 关键修改在这里 --- */
         #contact-me-section {
-            /* 独立的深色背景块 */
-            background: linear-gradient(to top, #020617, #0f172a);
+            /* 关键修改：移除独立的背景，继承 body 的光晕背景 */
+            background: none; 
             padding: 80px 0;
-            margin-top: 80px;
-            border-top: 1px solid var(--card-border);
+            margin-top: 0; /* 移除上边距，使其直接连接上一个 section */
+            border-top: none; /* 移除上方的分隔线 */
         }
 
         #contact-me-section .contact-container {
-            /* 保持优化后的宽度和居中，让三个图标紧凑 */
             max-width: 300px; 
             margin: 0 auto;
             text-align: center;
@@ -272,18 +270,16 @@
         #contact-me-section h3 {
             justify-content: center; /* 标题居中 */
             font-size: 2rem;
-            margin-bottom: 50px; /* 移除横线后，增加标题与图标的间距 */
+            margin-bottom: 50px;
         }
         
         #contact-me-section h3::before { display: none; } /* 底部标题不需要侧边条 */
-        /* 蓝色横线元素（.title-underline）已在 HTML 中移除 */
 
-
-        /* 社交链接 Grid 布局 (保持三列紧凑布局) */
+        /* 社交链接 Grid 布局 */
         .social-links {
             display: grid;
             grid-template-columns: repeat(3, 1fr); 
-            gap: 15px; /* 保持较小的间距 */
+            gap: 15px; 
             margin: 0 auto;
         }
 
@@ -293,7 +289,6 @@
         }
 
         .icon-box {
-            /* 保持图标缩小后的尺寸 */
             width: 50px;
             height: 50px;
             margin: 0 auto 10px;
@@ -303,7 +298,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 26px; /* 缩小图标内容尺寸 */
+            font-size: 26px; 
             transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
         }
 
@@ -335,9 +330,9 @@
             header h1 { font-size: 2.5rem; }
             .project-grid { grid-template-columns: 1fr; }
             .social-links { 
-                grid-template-columns: 1fr; /* 手机上单列堆叠 */
+                grid-template-columns: 1fr;
                 gap: 30px;
-                max-width: 200px; /* 限制宽度让其居中好看 */
+                max-width: 200px;
             }
         }
     </style>
@@ -349,12 +344,12 @@
             <h1>WANG YU</h1>
             <h2>个人作品集</h2>
             <p>
-                [cite_start]中南大学机械专业大三在读，拥有丰富的国家级机器人竞赛经验（共获国家级奖项8项）[cite: 14]。<br>
+                中南大学机械专业大三在读，拥有丰富的国家级机器人竞赛经验（共获国家级奖项8项）。<br>
                 擅长机器人本体结构设计，不断探索运动控制与感知技术。此页面将永久保持更新~
             </p>
             <div class="contact-action">
                 <a href="mailto:wyu5714@163.com" class="contact-capsule">
-                    ✉️ wyu5714@163.com
+                    邮箱：wyu5714@163.com
                 </a>
             </div>
         </header>
@@ -368,8 +363,8 @@
                         <h4>ROBOCON八自由度并联四足机器人系统设计</h4>
                         <span class="role">项目负责人、总体方案设计 (2025.1-2025.8)</span>
                         <ul>
-                            [cite_start]<li>基于**筝形四连杆并联机构**设计四足机器人整机，通过计算机辅助设计实现轻量化与强度平衡 [cite: 20]。</li>
-                            [cite_start]<li>获 ROBOCON 仿生足式机器人挑战赛 竞速赛、障碍赛、越野赛**全国二等奖** [cite: 22]。</li>
+                            <li>基于筝形四连杆并联机构设计四足机器人整机，通过计算机辅助设计实现轻量化与强度平衡。</li>
+                            <li>获 ROBOCON 仿生足式机器人挑战赛 竞速赛、障碍赛、越野赛全国二等奖。</li>
                         </ul>
                     </div>
                 </a>
@@ -379,8 +374,8 @@
                         <h4>月壤采集全向轮机器人</h4>
                         <span class="role">核心机械结构设计 (2024.4-2025.4)</span>
                         <ul>
-                            [cite_start]<li>设计具有强机械鲁棒性与卓越地形适应性的**全向轮底盘机械结构**，使用自适应悬挂机构增强通过性 [cite: 28]。</li>
-                            [cite_start]<li>获 RoboMaster 高校联盟赛**一等奖**；授权1项实用新型专利 [cite: 29]。</li>
+                            <li>设计具有强机械鲁棒性与卓越地形适应性的全向轮底盘机械结构，使用自适应悬挂机构增强通过性。</li>
+                            <li>获 RoboMaster 高校联盟赛一等奖；授权1项实用新型专利。</li>
                         </ul>
                     </div>
                 </a>
@@ -390,8 +385,8 @@
                         <h4>精确轨迹高稳定性新能源凸轮车</h4>
                         <span class="role">核心机构设计与实现 (2024.9-2025.8)</span>
                         <ul>
-                            [cite_start]<li>经过校、省、国赛十余次迭代，通过**纯机械结构**实现了高精度的固定轨迹运动，展现出良好的重复性与结构稳定性 [cite: 24]。</li>
-                            [cite_start]<li>获 中国大学生工程实践与创新能力大赛**全国一等奖** [cite: 25]。</li>
+                            <li>经过校、省、国赛十余次迭代，通过纯机械结构实现了高精度的固定轨迹运动，展现出良好的重复性与结构稳定性。</li>
+                            <li>获 中国大学生工程实践与创新能力大赛全国一等奖。</li>
                         </ul>
                     </div>
                 </a>
@@ -405,22 +400,22 @@
                 <div class="award-item">
                     <span class="level">全国一等奖</span>
                     <p>中国大学生工程实践与创新能力大赛</p>
-                    [cite_start]<span class="rank">排名第二 [cite: 30, 35]</span>
+                    <span class="rank">排名第二</span>
                 </div>
                 <div class="award-item">
                     <span class="level">全国二等奖</span>
                     <p>ROBOCON 仿生足式机器人挑战赛</p>
-                    [cite_start]<span class="rank">排名第一 (队长/创始人) [cite: 32, 36]</span>
+                    <span class="rank">排名第一 (队长/创始人)</span>
                 </div>
                 <div class="award-item">
                     <span class="level">全国二等奖</span>
                     <p>ROBOCON 机器人篮球竞技赛</p>
-                    [cite_start]<span class="rank">排名第三 [cite: 31, 36]</span>
+                    <span class="rank">排名第三</span>
                 </div>
                 <div class="award-item">
                     <span class="level">全国三等奖</span>
                     <p>中国大学生机械工程创新创意大赛铸造工艺设计赛</p>
-                    [cite_start]<span class="rank">核心队员 [cite: 33, 36]</span>
+                    <span class="rank">核心队员</span>
                 </div>
             </div>
         </section>
@@ -428,11 +423,11 @@
         <section id="skills">
             <h3>03. 核心技能栈 (Technical Skills)</h3>
             <div class="skills-list">
-                [cite_start]<div class="skill-tag"><strong>结构设计:</strong> SolidWorks (熟练), Fusion360 [cite: 15]</div>
-                [cite_start]<div class="skill-tag"><strong>制图与仿真:</strong> AutoCAD (熟练)[cite: 15], Adams</div>
-                [cite_start]<div class="skill-tag"><strong>嵌入式:</strong> STM32 开发 [cite: 15]</div>
+                <div class="skill-tag"><strong>结构设计:</strong> SolidWorks (熟练), Fusion360</div>
+                <div class="skill-tag"><strong>制图与仿真:</strong> AutoCAD (熟练), Adams</div>
+                <div class="skill-tag"><strong>嵌入式:</strong> STM32 开发</div>
                 <div class="skill-tag"><strong>编程/工具:</strong> Python/C/C#, MATLAB, GeoGebra</div>
-                [cite_start]<div class="skill-tag"><strong>工程能力:</strong> 机器人整体系统设计, 迭代优化 [cite: 16]</div>
+                <div class="skill-tag"><strong>工程能力:</strong> 机器人整体系统设计, 迭代优化</div>
             </div>
         </section>
 
