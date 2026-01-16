@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>项目详情 - 新能源凸轮车</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* --- 核心变量 --- */
+        :root {
+            --bg-base: #020617;
+            --text-primary: #f1f5f9;
+            --text-secondary: #94a3b8;
+            --accent-gradient: linear-gradient(135deg, #22d3ee 0%, #3b82f6 100%);
+            --card-bg: rgba(30, 41, 59, 0.4);
+            --card-border: rgba(255, 255, 255, 0.08);
+        }
+
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+            background-color: var(--bg-base);
+            color: var(--text-primary);
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+            background-image: 
+                radial-gradient(circle at 50% 10%, rgba(6, 182, 212, 0.08) 0%, transparent 40%),
+                radial-gradient(circle at 90% 90%, rgba(59, 130, 246, 0.08) 0%, transparent 40%);
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        a { text-decoration: none; transition: 0.3s; }
+
+        /* 导航 */
+        .nav-bar { margin-bottom: 40px; }
+        .nav-btn {
+            display: inline-flex;
+            align-items: center;
+            padding: 8px 20px;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--card-border);
+            border-radius: 50px;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        .nav-btn:hover { background: rgba(255, 255, 255, 0.1); color: #fff; border-color: #38bdf8; }
+
+        /* 标题 */
+        .project-header {
+            margin-bottom: 40px;
+            border-bottom: 1px solid var(--card-border);
+            padding-bottom: 20px;
+        }
+        .project-header h1 {
+            font-size: 2.2rem;
+            font-weight: 800;
+            margin-bottom: 10px;
+            background: var(--accent-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .project-header p { color: var(--text-secondary); font-size: 1.1rem; margin-top: 0; }
+
+        /* 三列图片布局 */
+        .grid-media-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-bottom: 40px;
+        }
+        
+        /* 核心修改：移除高度定义，使用 padding-bottom 保持长宽比 */
+        .grid-item {
+            border: 1px solid var(--card-border);
+            border-radius: 8px;
+            overflow: hidden;
+            /* **关键改动 1：移除背景色或设为透明，避免黑边** */
+            background: transparent; 
+            transition: transform 0.3s;
+            
+            /* **关键改动 2：使用 Padding Hack 保证方正比例 (可选，但推荐)** */
+            position: relative;
+            padding-top: 75%; /* 3:4 比例，如果想让图片更扁平，可以设为 60% */
+            height: 0;
+        }
+
+        .grid-item:hover {
+            transform: translateY(-5px);
+            border-color: rgba(56, 189, 248, 0.5);
+        }
+
+        /* 核心修改：图片填充容器 */
+        .grid-item img {
+            display: block;
+            width: 100%;
+            /* **关键改动 3：让图片覆盖整个容器** */
+            height: 100%;
+            object-fit: cover; 
+            
+            /* **关键改动 4：配合 Padding Hack** */
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        /* 移动端改为单列 */
+        @media (max-width: 768px) {
+            .grid-media-container { grid-template-columns: 1fr; }
+        }
+
+        /* 内容卡片 */
+        .content-section {
+            background: var(--card-bg);
+            backdrop-filter: blur(12px);
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
+            padding: 40px;
+        }
+        .content-section h2 {
+            font-size: 1.5rem;
+            color: #e2e8f0;
+            margin-top: 0;
+            margin-bottom: 25px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .content-section h2::before {
+            content: ''; display: block; width: 4px; height: 20px; background: var(--accent-gradient); border-radius: 2px;
+        }
+        .content-section ul { padding-left: 20px; color: var(--text-secondary); }
+        .content-section li { margin-bottom: 15px; }
+
+        /* 文档按钮 */
+        .doc-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #38bdf8;
+            font-weight: 600;
+            border-bottom: 1px dashed #38bdf8;
+            padding-bottom: 2px;
+        }
+        .doc-link:hover { color: #fff; border-bottom-style: solid; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="nav-bar">
+            <a href="index.html" class="nav-btn">← 返回项目列表</a>
+        </div>
+
+        <div class="project-header">
+            <h1>精确轨迹高稳定性新能源凸轮车</h1>
+            <p>机构设计与实现 (2024.9 - 2025.8)</p>
+        </div>
+
+        <div class="grid-media-container">
+            <div class="grid-item">
+                <img src="images/校赛车.jpg" alt="校赛车">
+            </div>
+            <div class="grid-item">
+                <img src="images/省赛车.jpg" alt="省赛车">
+            </div>
+            <div class="grid-item">
+                <img src="images/国赛车.jpg" alt="国赛车">
+            </div>
+        </div>
+
+        <div class="content-section">
+            <h2>项目简述</h2>
+            <ul>
+                <li>获中国大学生工程实践与创新能力大赛全国一等奖，我主要负责新能源车凸轮转向机构设计与生物质能转化装置的设计。</li>
+                <li>此作品的亮点在于高精度、轨迹一致性。</li>
+            </ul>
+            
+            <div style="text-align: right;">
+                <a target="_blank" href="docs/温差电动车任务命题文档.pdf" class="doc-link">
+                    查看详细技术文档 ↗
+                </a>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
