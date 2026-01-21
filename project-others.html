@@ -81,39 +81,65 @@
         }
         
         /* 核心修改：移除高度定义，使用 padding-bottom 保持长宽比 */
-        .grid-item {
+       
+        /*.grid-item {
             border: 1px solid var(--card-border);
             border-radius: 8px;
             overflow: hidden;
-            /* **关键改动 1：移除背景色或设为透明，避免黑边** */
+            
             background: transparent; 
             transition: transform 0.3s;
             
-            /* **关键改动 2：使用 Padding Hack 保证方正比例 (可选，但推荐)** */
+            
             position: relative;
-            padding-top: 75%; /* 3:4 比例，如果想让图片更扁平，可以设为 60% */
+            padding-top: 75%; 
             height: 0;
         }
+*/
+/* 1. 找到 .grid-item，给方框设置背景色 */
+.grid-item {
+    border: 1px solid var(--card-border);
+    border-radius: 8px;
+    overflow: hidden;
+    /* 关键修改：将背景色设为网页的背景深蓝色 */
+    background: #020617; 
+    transition: transform 0.3s;
+    position: relative;
+    padding-top: 75%; /* 保持 3:4 的比例方框 */
+    height: 0;
+}
 
+        
         .grid-item:hover {
             transform: translateY(-5px);
             border-color: rgba(56, 189, 248, 0.5);
         }
 
         /* 核心修改：图片填充容器 */
-        .grid-item img {
+      /*  .grid-item img {
             display: block;
             width: 100%;
-            /* **关键改动 3：让图片覆盖整个容器** */
+       
             height: 100%;
             object-fit: cover; 
             
-            /* **关键改动 4：配合 Padding Hack** */
+          
             position: absolute;
             top: 0;
             left: 0;
-        }
-
+        }*/
+.grid-item img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    /* 关键修改：由 cover 改为 contain */
+    /* contain 会让图片缩小直到能完整放入方框，不会被裁剪 */
+    object-fit: contain; 
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+}
         /* 移动端改为单列 */
         @media (max-width: 768px) {
             .grid-media-container { grid-template-columns: 1fr; }
