@@ -151,6 +151,32 @@
         .doc-link:hover {
             color: #fff;
             border-bottom-style: solid;
+        /* 视频包装容器 */
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* 限制视频最大宽度，防止在大屏上过大 */
+    aspect-ratio: 16 / 9; /* 锁定 16:9 比例 */
+    margin: 30px auto; /* 上下间距 30px，左右 auto 实现居中 */
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* 增加深邃感阴影 */
+    border: 1px solid var(--card-border);
+}
+
+/* 让 iframe 撑满容器 */
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* 优化列表间距 */
+.content-section ul {
+    margin-bottom: 25px;
+}
         }
     </style>
 </head>
@@ -171,20 +197,25 @@
         </div>
         
         <div class="content-section">
-            <h2>项目陈述</h2>
-            <ul>
-                <li>2025年1月，我发起了中南大学EK机器人队的仿生四足机器人项目，代表学校首次参加ROBOCON四足赛道，取得了越野赛、竞速赛、障碍赛全赛道全国二等奖的成绩，其中越野赛全国第30名（共100支队伍）。</li>
-                <li>在这个项目中，我作为负责人进行了方案总体设计，同时负责整机机械结构设计。</li>
-                <li><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115667076390407&bvid=BV1vn27BREpS&cid=34527315672&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></li>
-            </ul>
-            
-            <div style="text-align: right;">
-                <a href="docs/EK四足机器人技术文档.pdf" target="_blank" class="doc-link">
-                    查看详细设计报告 ↗
-                </a>
-            </div>
-        </div>
+    <h2>项目陈述</h2>
+    <ul>
+        <li>2025年1月，我发起了中南大学EK机器人队的仿生四足机器人项目，代表学校首次参加ROBOCON四足赛道，取得了越野赛、竞速赛、障碍赛全赛道全国二等奖的成绩。</li>
+        <li>其中，越野赛取得全国第30名（共100支队伍）。</li>
+        <li>作为项目负责人，我主导了方案总体设计，并独立完成整机机械结构设计。</li>
+    </ul>
 
+    <div class="video-wrapper">
+        <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115667076390407&bvid=BV1vn27BREpS&cid=34527315672&p=1&as_wide=1&high_quality=1" 
+                scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+        </iframe>
+    </div>
+    
+    <div style="text-align: right; margin-top: 25px;">
+        <a href="docs/EK四足机器人技术文档.pdf" target="_blank" class="doc-link">
+            查看详细设计报告 ↗
+        </a>
+    </div>
+</div>
     </div>
 </body>
 </html>
