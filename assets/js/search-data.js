@@ -421,12 +421,10 @@ ninja.data = [{
           section: "News",},{id: "news-创建中南大学仿生足式机器人队",
           title: '创建中南大学仿生足式机器人队。',
           description: "",
-          section: "News",},{id: "news-announcement-2",
-          title: 'Announcement_2',
+          section: "News",},{id: "news-参加第二十四届全国大学生robocon机器人大赛-并拿下竞速赛-障碍赛-越野赛等六项全国二等奖的成绩",
+          title: '参加第二十四届全国大学生ROBOCON机器人大赛，并拿下竞速赛、障碍赛、越野赛等六项全国二等奖的成绩！',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-赴深圳科创学院参加robocon青年工程师大会进行激情交流",
+          section: "News",},{id: "news-赴深圳科创学院参加robocon青年工程师大会进行激情交流",
           title: '赴深圳科创学院参加ROBOCON青年工程师大会进行激情交流。',
           description: "",
           section: "News",},{id: "news-于清华大学智能产业研究院-air-师从赵昊老师开展具身领域研究",
