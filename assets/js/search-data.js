@@ -418,8 +418,8 @@ ninja.data = [{
           section: "News",},{id: "news-创建中南大学仿生足式机器人队",
           title: '创建中南大学仿生足式机器人队。',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-announcement-2",
+          title: 'Announcement_2',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
