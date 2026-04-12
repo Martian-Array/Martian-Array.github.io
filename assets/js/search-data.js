@@ -412,16 +412,19 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-加入中南大学robocon-ek机器人队",
+          title: '加入中南大学ROBOCON-EK机器人队。',
+          description: "",
+          section: "News",},{id: "news-创建中南大学仿生足式机器人队",
+          title: '创建中南大学仿生足式机器人队。',
           description: "",
           section: "News",},{id: "news-a-long-announcement-with-details",
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-赴深圳科创学院参加robocon青年工程师大会进行激情交流",
+          title: '赴深圳科创学院参加ROBOCON青年工程师大会进行激情交流。',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
