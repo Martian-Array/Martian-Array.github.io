@@ -1,0 +1,18 @@
+<!-- _includes/social.html -->
+<div class="social">
+    <div class="contact-icons">
+      {% if site.email %}
+        <a href="mailto:{{ site.email | encode_email }}" title="email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      {% endif %}
+      {% if site.github_username %}
+        <a href="https://github.com/{{ site.github_username }}" title="GitHub" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      {% endif %}
+    </div>
+    {% if site.email %}
+      <div class="contact-note">{{ site.contact_note }}</div>
+    {% endif %}
+  </div>
