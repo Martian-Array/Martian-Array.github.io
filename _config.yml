@@ -4,7 +4,11 @@
 
 title: Yu Wang | Personal Page # the website title (if blank, full name will be used instead)
 first_name: Yu
-last_name: WANG
+last_name: Wang
+
+email: wyu571428@gmail.com
+github_username: Martian-Array
+
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
