@@ -9,6 +9,11 @@ last_name: Wang
 email: wyu571428@gmail.com
 github_username: Martian-Array
 
+social_links:
+  - title: Email
+    icon: fas fa-envelope
+    url: mailto:wyu571428@gmail.com
+
 contact_note: >
    
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
