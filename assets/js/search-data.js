@@ -412,7 +412,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-加入中南大学robocon-ek机器人队",
+            },},{id: "news-加入中南大学robomaster-fyt战队",
+          title: '加入中南大学RoboMaster-FYT战队。',
+          description: "",
+          section: "News",},{id: "news-加入中南大学robocon-ek机器人队",
           title: '加入中南大学ROBOCON-EK机器人队。',
           description: "",
           section: "News",},{id: "news-创建中南大学仿生足式机器人队",
