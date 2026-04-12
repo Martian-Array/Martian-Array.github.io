@@ -496,11 +496,18 @@ ninja.data = [{
           window.open("/feed.xml", "_blank");
         },
       },{
-        id: 'social-wechat_qr',
-        title: 'Wechat_qr',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("", "_blank");
+          window.open("https://github.com/Martian-Array", "_blank");
+        },
+      },{
+        id: 'social-x',
+        title: 'X',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://twitter.com/MartianArray", "_blank");
         },
       },{
       id: 'light-theme',
