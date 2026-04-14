@@ -464,7 +464,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/example_pdf.pdf", "_blank");
+          window.open("/assets/pdf/CV_WangYu_CN.pdf", "_blank");
         },
       },{
         id: 'social-email',
@@ -472,13 +472,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("mailto:%77%79%75%35%37%31%34%32%38@%67%6D%61%69%6C.%63%6F%6D", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
         },
       },{
         id: 'social-github',
