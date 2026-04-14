@@ -42,14 +42,14 @@ Hi！我是 **王煜**。中南大学机械专业大三在读，拥有丰富的�
 
 <div class="row" style="margin-bottom: 2rem;">
   <div class="col-sm-6">
-    <h5 style="border-bottom: 2px solid var(--global-theme-color); display: inline-block;">🔍 研究兴趣</h5>
+    <h5 style="border-bottom: 2px solid var(--global-theme-color); display: inline-block;">研究兴趣</h5>
     <ul style="padding-left: 1.2rem; margin-top: 10px;">
       <li>足式机器人本体设计</li>
       <li>足式机器人强化学习</li>
     </ul>
   </div>
   <div class="col-sm-6">
-    <h5 style="border-bottom: 2px solid var(--global-theme-color); display: inline-block;">🛠️ 技术栈</h5>
+    <h5 style="border-bottom: 2px solid var(--global-theme-color); display: inline-block;">技术栈</h5>
     <div style="margin-top: 10px; line-height: 1.8;">
       <small><b>设计:</b> SolidWorks, Fusion360, AutoCAD</small><br>
       <small><b>嵌入式:</b> STM32 开发, Python, C++</small><br>
@@ -62,7 +62,3 @@ Hi！我是 **王煜**。中南大学机械专业大三在读，拥有丰富的�
     <a href="/assets/pdf/my_cv.pdf" class="btn btn-sm z-depth-1" style="background-color: var(--global-theme-color); color: white; border-radius: 5px; padding: 5px 15px;">下载简历 (PDF)</a>
     <a href="/projects/" class="btn btn-sm z-depth-1" style="background-color: transparent; color: var(--global-theme-color); border: 1px solid var(--global-theme-color); border-radius: 5px; margin-left: 10px; padding: 5px 15px;">查看我的项目</a>
 </div>
-
-<hr style="margin-top: 3rem;">
-
-### 📢 最新动态 (News)
