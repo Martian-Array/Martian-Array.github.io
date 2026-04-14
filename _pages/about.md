@@ -33,32 +33,25 @@ Hi！我是 **王煜**。中南大学机械专业大三在读，拥有丰富的�
 * 足式机器人本体设计
 * 足式机器人强化学习
 
-<div class="skills" style="margin-top: 20px;">
-    <h3 style="font-size: 1.3rem; margin-bottom: 15px;">03. 当前的核心技能栈 (Technical Skills)</h3>
-    <div style="line-height: 2.2;">
-        <strong>结构设计:</strong> 
-        <span class="badge z-depth-0">SolidWorks (熟练)</span> 
-        <span class="badge z-depth-0">Fusion360</span>
-        <br>
-        <strong>制图与仿真:</strong> 
-        <span class="badge z-depth-0">AutoCAD (熟练)</span> 
-        <span class="badge z-depth-0">Adams</span>
-        <br>
-        <strong>嵌入式:</strong> 
-        <span class="badge z-depth-0">STM32 开发</span>
-        <br>
-        <strong>编程/工具:</strong> 
-        <span class="badge z-depth-0">Python/C/C#</span> 
-        <span class="badge z-depth-0">MATLAB</span> 
-        <span class="badge z-depth-0">GeoGebra</span>
-        <br>
-        <strong>工程能力:</strong> 
-        <span class="badge z-depth-0">机器人整体系统设计</span> 
-        <span class="badge z-depth-0">迭代优化</span>
+<hr>
+
+<div class="card mt-3">
+  <div class="card-body">
+    <h5 class="card-title"><i class="fa-solid fa-gears"></i> 核心技能栈 (Technical Skills)</h5>
+    <div class="p-1" style="line-height: 2.5;">
+      <strong>结构设计:</strong> <span class="badge badge-pill z-depth-0">SolidWorks (熟练)</span> <span class="badge badge-pill z-depth-0">Fusion360</span> <br>
+      <strong>制图仿真:</strong> <span class="badge badge-pill z-depth-0">AutoCAD (熟练)</span> <span class="badge badge-pill z-depth-0">Adams</span> <br>
+      <strong>嵌入式:</strong> <span class="badge badge-pill z-depth-0">STM32 开发</span> <br>
+      <strong>编程/工具:</strong> <span class="badge badge-pill z-depth-0">Python/C/C#</span> <span class="badge badge-pill z-depth-0">MATLAB</span> <span class="badge badge-pill z-depth-0">GeoGebra</span> <br>
+      <strong>工程能力:</strong> <span class="badge badge-pill z-depth-0">机器人整体系统设计</span> <span class="badge badge-pill z-depth-0">迭代优化</span>
     </div>
+  </div>
 </div>
 
-<br>
+<div class="mt-3 text-right">
+    <a href="/assets/pdf/my_cv.pdf" class="btn btn-sm z-depth-0" style="background-color: var(--global-theme-color); color: white;">下载简历</a>
+    <a href="/projects/" class="btn btn-sm btn-outline-info z-depth-0">查看项目</a>
+</div>
 
-[下载我的简历](/assets/pdf/my_cv.pdf) / [查看我的项目](/projects/)
-
+<div style="margin-bottom: 50px;"></div>
+<hr>
