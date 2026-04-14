@@ -37,7 +37,7 @@ Hi！我是 **王煜**。中南大学机械专业大三在读，拥有丰富的�
  -->
 
 <div class="main-bio" style="margin-bottom: 2rem;">
-  Hi！我是 <strong>王煜</strong>。中南大学机械专业大三在读。我拥有丰富的机器人竞赛经验（共获 9 项国家级奖项），擅长机器人本体结构设计，目前正深入探索具身智能与强化学习。
+  您好！我是 <strong>王煜</strong>。中南大学机械专业大三在读。我拥有丰富的机器人竞赛经验（共获 9 项国家级奖项），擅长机器人本体结构设计，不断探索运动控制与感知技术。
 </div>
 
 <div class="row" style="margin-bottom: 2rem;">
@@ -51,9 +51,9 @@ Hi！我是 **王煜**。中南大学机械专业大三在读，拥有丰富的�
   <div class="col-sm-6">
     <h5 style="border-bottom: 2px solid var(--global-theme-color); display: inline-block;">技术栈</h5>
     <div style="margin-top: 10px; line-height: 1.8;">
-      <small><b>设计:</b> SolidWorks, Fusion360, AutoCAD</small><br>
+      <small><b>结构设计:</b> SolidWorks, Fusion360, AutoCAD</small><br>
       <small><b>嵌入式:</b> STM32 开发, Python, C++</small><br>
-      <small><b>工具:</b> MATLAB, Adams, GeoGebra</small>
+      <small><b>仿真与计算:</b> MATLAB, Adams, GeoGebra，ANSYS</small>
     </div>
   </div>
 </div>
