@@ -27,7 +27,7 @@ cv:
           - "主修高分课程: 机械原理与设计(一) (95), 工程制图与数字化表达(二) (95), 计算方法与 Matlab 应用 (94)"
           - "英语水平: CET-4 (556), CET-6 (501)"
 
-    核心奖项 (National Awards):
+    Awards:
       - title: 中国大学生工程实践与创新能力大赛
         awarder: 全国一等奖 (排名第二)
         date: 2024
@@ -47,7 +47,7 @@ cv:
         awarder: 2023-2024 学年一等奖学金 & 优秀学生
         date: 2024
 
-    项目经历 (Projects):
+    Projects:
       - name: 多传感融合八自由度并联四足机器人系统设计
         summary: 国家级大学生创新训练项目立项负责人。基于筝形四连杆并联机构，设计四足机器人整机，实现轻量化与高运动性能。
         highlights:
@@ -72,7 +72,7 @@ cv:
         start_date: 2023.10
         end_date: 2024.06
 
-    实践与身份 (Experience):
+    Experience:
       - company: 中南大学 ROBOCON-EK 仿生四足机器人队
         position: 队长 / 创始人
         start_date: 2025.01
@@ -90,15 +90,10 @@ cv:
         start_date: 2025.01
         end_date: 至今
 
-    技术技能 (Skills):
+    Skills:
       - name: 机械设计与仿真
         keywords: "SolidWorks (熟练), AutoCAD, Adams, Fusion360"
       - name: 嵌入式与编程
         keywords: "STM32 嵌入式开发, Python, C/C++, MATLAB, GeoGebra"
       - name: 工程素养
         keywords: "机器人整机迭代, 成本分析, 团队管理, 样机加工制造"
-
-    个人专利 (Patents):
-      - name: 一种复杂条件下自适应全向轮机器人
-        issuer: 实用新型专利 (已授权)
-        date: 2024
