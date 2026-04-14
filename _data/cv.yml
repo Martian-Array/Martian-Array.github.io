@@ -15,7 +15,7 @@ cv:
       username: Martian-Array
 
   sections:
-    教育背景 (Education):
+    Education:
       - institution: 中南大学
         location: 长沙, 中国
         area: 机械设计制造及其自动化
