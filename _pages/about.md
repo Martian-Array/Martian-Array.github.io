@@ -58,7 +58,25 @@ Hi！我是 **王煜**。中南大学机械专业大三在读，拥有丰富的�
   </div>
 </div>
 
-<div style="margin-bottom: 4rem;">
-    <a href="/assets/pdf/my_cv.pdf" class="btn btn-sm z-depth-1" style="background-color: var(--global-theme-color); color: white; border-radius: 5px; padding: 5px 15px;">下载简历 (PDF)</a>
-    <a href="/projects/" class="btn btn-sm z-depth-1" style="background-color: transparent; color: var(--global-theme-color); border: 1px solid var(--global-theme-color); border-radius: 5px; margin-left: 10px; padding: 5px 15px;">查看我的项目</a>
+<div style="margin-top: 1.5rem; margin-bottom: 4rem;">
+    <a href="/assets/pdf/my_cv.pdf" class="btn z-depth-1" style="
+        background-color: var(--global-theme-color); 
+        color: white; 
+        border-radius: 5px; 
+        padding: 6px 20px; 
+        font-size: 1rem;
+        font-weight: 400;
+    ">下载简历 (PDF)</a>
+    
+    <a href="/projects/" class="btn z-depth-1" style="
+        background-color: transparent; 
+        color: var(--global-theme-color); 
+        border: 1px solid var(--global-theme-color); 
+        border-radius: 5px; 
+        margin-left: 12px; 
+        padding: 6px 20px; 
+        font-size: 1rem;
+        font-weight: 400;
+    ">查看项目详情</a>
 </div>
+
