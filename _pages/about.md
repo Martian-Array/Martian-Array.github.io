@@ -59,7 +59,7 @@ Hi！我是 **王煜**。中南大学机械专业大三在读，拥有丰富的�
 </div>
 
 <div style="margin-top: 1.5rem; margin-bottom: 4rem;">
-    <a href="/assets/pdf/my_cv.pdf" class="btn z-depth-1" style="
+    <a href="/assets/pdf/CV_WangYu_CN.pdf" class="btn z-depth-1" style="
         background-color: var(--global-theme-color); 
         color: white; 
         border-radius: 5px; 
