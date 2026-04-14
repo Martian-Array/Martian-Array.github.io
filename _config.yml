@@ -7,7 +7,7 @@ first_name: Yu
 last_name: Wang
 
 contact_note: >
-   email goes first
+   
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Undergraduate student in Mechanical Engineering at Central South University.
   Interested in robotics, dexterous manipulation, hand exoskeletons,
