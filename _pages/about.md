@@ -25,7 +25,7 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-
+<!-- 
 ## 关于我 (About Me)
 Hi！我是 **王煜**。中南大学机械专业大三在读，拥有丰富的国家级机器人竞赛经验（共获国家级奖项9项）。擅长机器人本体结构设计，不断探索运动控制与感知技术。此页面将持续更新~
 
@@ -33,25 +33,36 @@ Hi！我是 **王煜**。中南大学机械专业大三在读，拥有丰富的�
 * 足式机器人本体设计
 * 足式机器人强化学习
 
-<hr>
+[下载我的简历](/assets/pdf/my_cv.pdf) / [查看我的项目](/projects/)
+ -->
 
-<div class="card mt-3">
-  <div class="card-body">
-    <h5 class="card-title"><i class="fa-solid fa-gears"></i> 核心技能栈 (Technical Skills)</h5>
-    <div class="p-1" style="line-height: 2.5;">
-      <strong>结构设计:</strong> <span class="badge badge-pill z-depth-0">SolidWorks (熟练)</span> <span class="badge badge-pill z-depth-0">Fusion360</span> <br>
-      <strong>制图仿真:</strong> <span class="badge badge-pill z-depth-0">AutoCAD (熟练)</span> <span class="badge badge-pill z-depth-0">Adams</span> <br>
-      <strong>嵌入式:</strong> <span class="badge badge-pill z-depth-0">STM32 开发</span> <br>
-      <strong>编程/工具:</strong> <span class="badge badge-pill z-depth-0">Python/C/C#</span> <span class="badge badge-pill z-depth-0">MATLAB</span> <span class="badge badge-pill z-depth-0">GeoGebra</span> <br>
-      <strong>工程能力:</strong> <span class="badge badge-pill z-depth-0">机器人整体系统设计</span> <span class="badge badge-pill z-depth-0">迭代优化</span>
+<div class="main-bio" style="margin-bottom: 2rem;">
+  Hi！我是 <strong>王煜</strong>。中南大学机械专业大三在读。我拥有丰富的机器人竞赛经验（共获 9 项国家级奖项），擅长机器人本体结构设计，目前正深入探索具身智能与强化学习。
+</div>
+
+<div class="row" style="margin-bottom: 2rem;">
+  <div class="col-sm-6">
+    <h5 style="border-bottom: 2px solid var(--global-theme-color); display: inline-block;">🔍 研究兴趣</h5>
+    <ul style="padding-left: 1.2rem; margin-top: 10px;">
+      <li>足式机器人本体设计</li>
+      <li>足式机器人强化学习</li>
+    </ul>
+  </div>
+  <div class="col-sm-6">
+    <h5 style="border-bottom: 2px solid var(--global-theme-color); display: inline-block;">🛠️ 技术栈</h5>
+    <div style="margin-top: 10px; line-height: 1.8;">
+      <small><b>设计:</b> SolidWorks, Fusion360, AutoCAD</small><br>
+      <small><b>嵌入式:</b> STM32 开发, Python, C++</small><br>
+      <small><b>工具:</b> MATLAB, Adams, GeoGebra</small>
     </div>
   </div>
 </div>
 
-<div class="mt-3 text-right">
-    <a href="/assets/pdf/my_cv.pdf" class="btn btn-sm z-depth-0" style="background-color: var(--global-theme-color); color: white;">下载简历</a>
-    <a href="/projects/" class="btn btn-sm btn-outline-info z-depth-0">查看项目</a>
+<div style="margin-bottom: 4rem;">
+    <a href="/assets/pdf/my_cv.pdf" class="btn btn-sm z-depth-1" style="background-color: var(--global-theme-color); color: white; border-radius: 5px; padding: 5px 15px;">下载简历 (PDF)</a>
+    <a href="/projects/" class="btn btn-sm z-depth-1" style="background-color: transparent; color: var(--global-theme-color); border: 1px solid var(--global-theme-color); border-radius: 5px; margin-left: 10px; padding: 5px 15px;">查看我的项目</a>
 </div>
 
-<div style="margin-bottom: 50px;"></div>
-<hr>
+<hr style="margin-top: 3rem;">
+
+### 📢 最新动态 (News)
