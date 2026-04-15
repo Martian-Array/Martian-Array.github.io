@@ -33,7 +33,7 @@ permalink: /people/
 title: people
 description: 志同道合的合作伙伴与技术战友
 nav: true
-nav_order: 7
+nav_order: 6
 
 profiles:
   - align: left
