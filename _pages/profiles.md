@@ -1,4 +1,4 @@
-<!-- ---
+-- ---
 layout: profiles
 permalink: /people/
 title: teammate
@@ -26,14 +26,16 @@ profiles:
       <p>中南大学微电子专业</p>
       <p>研究方向：视觉 SLAM</p>
       <p><a href="https://www.firommao.top/" target="_blank"><i class="fa-solid fa-house"></i> 个人主页</a></p>
---- -->
----
+--- --
+
+
+<!-- ---
 layout: profiles
 permalink: /people/
 title: people
 description: 志同道合的合作伙伴与技术战友
 nav: true
-nav_order: 6
+nav_order: 7
 
 profiles:
   - align: left
@@ -73,4 +75,4 @@ profiles:
           </a>
         </div>
       </div>
----
+--- -->
