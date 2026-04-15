@@ -1,4 +1,4 @@
--- ---
+<!-- ---
 layout: profiles
 permalink: /people/
 title: people
@@ -26,10 +26,10 @@ profiles:
       <p>中南大学微电子专业</p>
       <p>研究方向：视觉 SLAM</p>
       <p><a href="https://www.firommao.top/" target="_blank"><i class="fa-solid fa-house"></i> 个人主页</a></p>
---- --
+--- -->
 
 
-<!-- ---
+---
 layout: profiles
 permalink: /people/
 title: people
@@ -75,4 +75,4 @@ profiles:
           </a>
         </div>
       </div>
---- -->
+--- 
