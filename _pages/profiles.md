@@ -8,7 +8,7 @@ nav_order: 7
 
 profiles:
   - align: left
-    image: prof_pic.jpg 
+    #image: prof_pic.jpg 
     content: zhxy.md
     image_circular: true
     more_info: >
@@ -18,7 +18,7 @@ profiles:
       <p><a href="https://zhxylabflow.xyz/" target="_blank"><i class="fa-solid fa-house"></i> 个人主页</a></p>
 
   - align: left
-    image: prof_pic.jpg
+    #image: prof_pic.jpg
     content: firommao.md
     image_circular: true
     more_info: >

@@ -1,10 +1,3 @@
-这是 **ZHXY** 的个人简介。点击下方链接访问其主页。
----
-layout: page
-title: ZHXY
-permalink: /people/zhxy/
----
-
 **ZHXY** 是中南大学微电子科学与工程专业的一名开发者。
 
 他目前的研究方向专注于**四足机器人强化学习 (Reinforcement Learning for Quadrupedal Robots)**，致力于提升机器人在复杂环境下的运动稳健性与自适应能力。作为 **ROBOCON 竞赛** 的核心成员，他在机器人控制算法与仿真训练方面拥有丰富的实战经验。

@@ -1,10 +1,3 @@
-这是 **Firommao** 的个人简介。点击下方链接访问其主页。
----
-layout: page
-title: Firommao
-permalink: /people/firommao/
----
-
 **Firommao** 就读于中南大学微电子科学与工程专业。
 
 他的研究重心在于**视觉 SLAM (Visual SLAM)** 与空间感知，致力于解决机器人动态定位与实时建图的难题。他在 **ROBOCON 竞赛** 中负责视觉感知系统的构建，擅长将先进的视觉算法应用于高速竞技机器人平台。
