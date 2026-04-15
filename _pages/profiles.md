@@ -1,28 +1,29 @@
 ---
 layout: profiles
 permalink: /people/
-title: people
-description: members of the lab or group
+title: 团队伙伴
+description: 志同道合的合作伙伴与技术战友
 nav: true
 nav_order: 7
 
 profiles:
-  # if you want to include more than one profile, just replicate the following block
-  # and create one content file for each profile inside _pages/
-  - align: right
-    image: prof_pic.jpg
-    content: about_einstein.md
-    image_circular: false # crops the image to make it circular
+  - align: left
+    image: prof_pic.jpg 
+    content: zhxy.md
+    image_circular: true
     more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+      <p><b>ZHXY</b></p>
+      <p>中南大学微电子专业</p>
+      <p>研究方向：四足强化学习</p>
+      <p><a href="https://zhxylabflow.xyz/" target="_blank"><i class="fa-solid fa-house"></i> 个人主页</a></p>
+
   - align: left
     image: prof_pic.jpg
-    content: about_einstein.md
-    image_circular: false # crops the image to make it circular
+    content: firommao.md
+    image_circular: true
     more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+      <p><b>Firommao</b></p>
+      <p>中南大学微电子专业</p>
+      <p>研究方向：视觉 SLAM</p>
+      <p><a href="https://www.firommao.top/" target="_blank"><i class="fa-solid fa-house"></i> 个人主页</a></p>
 ---
