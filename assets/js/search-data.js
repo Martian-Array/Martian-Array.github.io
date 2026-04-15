@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
+        },{id: "nav-people",
+          title: "people",
+          description: "志同道合的合作伙伴与技术战友",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/people/";
+          },
         },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
