@@ -40,7 +40,7 @@ profiles:
           <div>
             <h2 style="margin: 0; color: #26a69a; font-weight: 800; font-size: 1.8rem;">Firommao</h2>
             <div style="font-size: 1rem; color: var(--global-text-color-light); margin-top: 6px;">
-              <i class="fa-solid fa-eye" style="margin-right: 8px;"></i> 中南大学微电子专业
+              <i class="fa-solid fa-microchip" style="margin-right: 8px;"></i> 中南大学微电子专业
             </div>
           </div>
           <div style="background: rgba(38, 166, 154, 0.15); color: #26a69a; padding: 8px 20px; border-radius: 50px; font-size: 0.9rem; font-weight: 700;">
