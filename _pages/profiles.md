@@ -10,7 +10,7 @@ profiles:
   - align: left
     content: false 
     more_info: >
-      <div style="width: 100%; min-width: 75vw; background-color: var(--global-card-bg-color); border: 1px solid var(--global-divider-color); border-radius: 12px; padding: 28px; margin-bottom: 30px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); transition: all 0.3s ease;">
+      <div style="width: 100%; min-width: 55vw; background-color: var(--global-card-bg-color); border: 1px solid var(--global-divider-color); border-radius: 12px; padding: 28px; margin-bottom: 30px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); transition: all 0.3s ease;">
         <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--global-divider-color); padding-bottom: 15px; margin-bottom: 20px;">
           <div>
             <h2 style="margin: 0; color: var(--global-theme-color); font-weight: 800; font-size: 1.8rem;">ZHXY</h2>
@@ -35,7 +35,7 @@ profiles:
   - align: left
     content: false
     more_info: >
-      <div style="width: 100%; min-width: 75vw; background-color: var(--global-card-bg-color); border: 1px solid var(--global-divider-color); border-radius: 12px; padding: 28px; margin-bottom: 30px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); transition: all 0.3s ease;">
+      <div style="width: 100%; min-width: 55vw; background-color: var(--global-card-bg-color); border: 1px solid var(--global-divider-color); border-radius: 12px; padding: 28px; margin-bottom: 30px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); transition: all 0.3s ease;">
         <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--global-divider-color); padding-bottom: 15px; margin-bottom: 20px;">
           <div>
             <h2 style="margin: 0; color: #26a69a; font-weight: 800; font-size: 1.8rem;">Firommao</h2>
