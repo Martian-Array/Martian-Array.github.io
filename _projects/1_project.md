@@ -18,18 +18,21 @@ category: work
 ### 演示视频
 <div class="row justify-content-sm-center">
     <div class="col-sm-10 mt-3 mt-md-0">
-        <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115667076390407&bvid=BV1vn27BREpS&cid=34527315672&p=1&high_quality=1&danmaku=0" 
-                scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" 
-                style="width: 100%; height: 500px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+        <iframe src="https://player.bilibili.com/player.html?isOutside=true&aid=115667076390407&bvid=BV1vn27BREpS&cid=34527315672&p=1&high_quality=1&danmaku=0&autoplay=0" 
+                scrolling="no" 
+                border="0" 
+                frameborder="no" 
+                framespacing="0" 
+                allowfullscreen="true"
+                referrerpolicy="no-referrer"
+                style="width: 100%; aspect-ratio: 16 / 9; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
         </iframe>
     </div>
 </div>
 <div class="caption">
     项目演示视频：八自由度并联四足机器人性能展示。
 </div>
-<div class="caption">
-    项目演示视频：机器人行走、越障与竞速展示。
-</div>
+
 ### 获得奖项
 * **2025.05** 国家级大学生创新训练项目立项
 * **2025.07** 全国大学生机器人大赛 ROBOCON 仿生足式机器人挑战赛全国二等奖（竞速赛、障碍赛、越野赛）
