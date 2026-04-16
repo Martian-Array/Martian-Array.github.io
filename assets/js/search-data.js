@@ -399,22 +399,22 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-八自由度并联四足机器人",
           title: '八自由度并联四足机器人',
-          description: "基于筝形四连杆机构的轻量化并联机器人设计，获国家级大创立项。",
+          description: "基于筝形四连杆机构的轻量化并联机器人，获国家级大创立项。",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-精确轨迹新能源凸轮车",
+          title: '精确轨迹新能源凸轮车',
+          description: "基于高精度凸轮转向机构的温差电动车。",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-全向移动机器人平台",
+          title: '全向移动机器人平台',
+          description: "基于麦克纳姆轮的灵活移动平台，支持复杂路径规划。",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+            },},{id: "projects-其他科研与竞赛项目",
+          title: '其他科研与竞赛项目',
+          description: "包含月壤采集机器人、机构创新设计等。",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
             },},{id: "projects-project-6",
