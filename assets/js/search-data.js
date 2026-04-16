@@ -397,9 +397,9 @@ ninja.data = [{
           section: "News",},{id: "news-全新结构-部署强化运控的12dof四足机器人设计启动",
           title: '全新结构、部署强化运控的12dof四足机器人设计启动。',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-八自由度并联四足机器人",
+          title: '八自由度并联四足机器人',
+          description: "基于筝形四连杆机构的轻量化并联机器人设计，获国家级大创立项。",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
