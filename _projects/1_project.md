@@ -1,32 +1,42 @@
 ---
 layout: page
 title: 八自由度并联四足机器人
-description: 基于筝形四连杆机构的轻量化并联机器人设计，获国家级大创立项。
-img: assets/img/四足.jpg  # 这里的图片是显示在项目列表里的封面
-importance: 1                    # 数字越小，在页面排位越靠前
-category: work                   # 对应 projects.md 里的 display_categories
+description: 基于筝形四连杆机构的轻量化并联机器人，获国家级大创立项。
+img: assets/img/四足.jpg
+importance: 1
+category: work
 ---
 
 ### 项目概述
-本项目设计了一款面向老旧社区复杂路况的末端配送机器狗。采用并联机构设计，兼顾了结构强度与轻量化需求。
+本项目设计了一款面向老旧社区复杂路况的末端配送机器狗“巷陌灵犬”。采用八自由度并联机构设计，兼顾了结构强度与轻量化需求。
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/robot_design1.jpg" title="机械结构设计" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/robot_real.jpg" title="实物样机" class="img-fluid rounded z-depth-1" %}
+### 核心技术点
+1. **并联机构设计**：创新性地利用筝形四连杆机构，有效提升了足端爆发力并降低了电机负载。
+2. **轻量化优化**：通过计算机辅助设计（CAD），在保证强度的前提下对足端和机架进行了精密的减重处理。
+3. **仿真与测试**：针对高运动性能需求，对足端材料和尺寸进行了迭代优化，并通过 Adams 进行动力学仿真。
+
+### 演示视频
+<div class="row justify-content-sm-center">
+    <div class="col-sm-10 mt-3 mt-md-0">
+        <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115667076390407&bvid=BV1vn27BREpS&cid=34527315672&p=1&high_quality=1&danmaku=0" 
+                scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" 
+                style="width: 100%; height: 500px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+        </iframe>
     </div>
 </div>
 <div class="caption">
-    左图：SolidWorks 机械装配模型；右图：ROBOCON 比赛现场实物样机。
+    项目演示视频：八自由度并联四足机器人性能展示。
 </div>
-
-### 核心技术点
-1. **并联机构设计**：利用筝形四连杆机构提升足端爆发力。
-2. **仿真优化**：使用 Adams 进行动力学仿真，优化电机选型。
-3. **成本分析**：针对末端配送场景进行了完整的系统成本评估。
-
+<div class="caption">
+    项目演示视频：机器人行走、越障与竞速展示。
+</div>
 ### 获得奖项
-* 2025.05 国家级大学生创新训练项目立项
-* 2025.07 ROBOCON 仿生足式机器人挑战赛全国二等奖
+* **2025.05** 国家级大学生创新训练项目立项
+* **2025.07** 全国大学生机器人大赛 ROBOCON 仿生足式机器人挑战赛全国二等奖（竞速赛、障碍赛、越野赛）
+
+---
+
+### 🛠️ 技术文档
+* [机械结构设计说明书 (PDF)](#)
+* [Adams 仿真分析报告](#)
+* [电路系统原理图](#)
