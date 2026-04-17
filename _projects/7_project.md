@@ -18,10 +18,10 @@ category: work
 ### 实物展示
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/校赛车.jpg" title="校赛车" class="img-fluid rounded z-depth-1" %}
-    </div>
-    
+        {% include figure.liquid loading="eager" path="assets/img/腿姿变换.png" title="机器人可实现的四种腿部姿态" class="img-fluid rounded z-depth-1" %}
+    </div>    
 </div>
+
 <div class="caption">
     项目演示视频：八自由度并联四足机器人性能展示。
 </div>
