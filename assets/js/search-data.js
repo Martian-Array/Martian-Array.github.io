@@ -388,8 +388,8 @@ ninja.data = [{
           section: "News",},{id: "news-参加第二十四届全国大学生robocon机器人大赛-并拿下竞速赛-障碍赛-越野赛等六项全国二等奖的成绩",
           title: '参加第二十四届全国大学生ROBOCON机器人大赛，并拿下竞速赛、障碍赛、越野赛等六项全国二等奖的成绩！',
           description: "",
-          section: "News",},{id: "news-赴深圳科创学院参加robocon青年工程师大会进行激情交流",
-          title: '赴深圳科创学院参加ROBOCON青年工程师大会进行激情交流。',
+          section: "News",},{id: "news-赴深圳科创学院参加2026年全国大学生机器人青年工程师大会进行激情交流",
+          title: '赴深圳科创学院参加2026年全国大学生机器人青年工程师大会进行激情交流。',
           description: "",
           section: "News",},{id: "news-于清华大学智能产业研究院-air-师从赵昊老师开展具身领域研究",
           title: '于清华大学智能产业研究院（AIR）师从赵昊老师开展具身领域研究。',
@@ -422,9 +422,9 @@ ninja.data = [{
           description: "a project with no image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+            },},{id: "projects-十二自由度四足机器人-最新",
+          title: '十二自由度四足机器人（最新）',
+          description: "全国大学生机器人大赛首台通过刚性连杆实现膝肘转换的四足机器人",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
             },},{id: "projects-project-8",
