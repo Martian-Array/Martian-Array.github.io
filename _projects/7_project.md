@@ -23,7 +23,7 @@ category: work
 </div>
 
 <div class="caption">
-    项目演示视频：八自由度并联四足机器人性能展示。
+    Comparison of Joint Configurations for Quadrupedal Locomotion
 </div>
 
 ### 获得奖项
