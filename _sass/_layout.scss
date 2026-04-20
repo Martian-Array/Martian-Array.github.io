@@ -56,3 +56,37 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 // TODO: redefine projects layout.
+/*******************************************************************************
+ * Custom Scrollbar (美化滚动条)
+ ******************************************************************************/
+
+/* 针对 News 公告栏等局部滚动容器 */
+.table-responsive::-webkit-scrollbar {
+  width: 6px;
+}
+
+.table-responsive::-webkit-scrollbar-thumb {
+  background-color: var(--global-divider-color);
+  border-radius: 10px;
+}
+
+.table-responsive::-webkit-scrollbar-thumb:hover {
+  background-color: var(--global-theme-color);
+}
+
+/* 如果你想让整个网页右侧的长滚动条也变好看，取消下面这段注释 */
+/*
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--global-divider-color);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--global-theme-color);
+}
+*/
