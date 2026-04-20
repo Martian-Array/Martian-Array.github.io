@@ -26,11 +26,8 @@ category: work
     Comparison of Joint Configurations for Quadrupedal Locomotion
 </div>
 
-### 获得奖项
-* **2025.05** 国家级大学生创新训练项目立项
-* **2025.07** 全国大学生机器人大赛 ROBOCON 仿生足式机器人挑战赛全国二等奖（竞速赛、障碍赛、越野赛）
 
 ---
 
 ### 🛠️ 技术文档
-* [中南大学EK四足机器人技术文档（2025.3-2025.7）](/assets/pdf/中南大学EK四足机器人技术文档（2025.3-2025.7）.pdf)
+* [中南大学EK战队四足技术介绍（2026.2）](/assets/pdf/中南大学EK战队四足技术介绍（2026.2）.pdf)
