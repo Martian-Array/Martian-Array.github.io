@@ -427,9 +427,9 @@ ninja.data = [{
           description: "全国大学生机器人大赛首台通过刚性连杆实现膝肘转换的四足机器人",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
+            },},{id: "projects-xhand主动外骨骼",
+          title: 'XHand主动外骨骼',
+          description: "基于开源项目DexUMI,核心目标为实现主从转换DAgger",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
             },},{id: "teachings-data-science-fundamentals",
