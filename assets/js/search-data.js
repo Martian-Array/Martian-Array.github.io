@@ -397,41 +397,41 @@ ninja.data = [{
           section: "News",},{id: "news-全新结构-部署强化运控的12dof四足机器人设计启动",
           title: '全新结构、部署强化运控的12dof四足机器人设计启动。',
           description: "",
-          section: "News",},{id: "projects-八自由度并联四足机器人",
-          title: '八自由度并联四足机器人',
-          description: "基于筝形四连杆机构的轻量化并联机器人，获国家级大创立项。",
+          section: "News",},{id: "projects-十二自由度四足机器人-最新",
+          title: '十二自由度四足机器人（最新）',
+          description: "全国大学生机器人大赛首台通过刚性连杆实现膝肘转换的四足机器人",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-精确轨迹新能源凸轮车",
-          title: '精确轨迹新能源凸轮车',
-          description: "基于高精度凸轮转向机构的温差电动车。",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-全向移动机器人平台",
-          title: '全向移动机器人平台',
-          description: "基于麦克纳姆轮的灵活移动平台，支持复杂路径规划。",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-其他科研与竞赛项目",
-          title: '其他科研与竞赛项目',
-          description: "包含月壤采集机器人、机构创新设计等。",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
+              window.location.href = "/projects/12dof/";
             },},{id: "projects-project-6",
           title: 'project 6',
           description: "a project with no image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
-            },},{id: "projects-十二自由度四足机器人-最新",
-          title: '十二自由度四足机器人（最新）',
-          description: "全国大学生机器人大赛首台通过刚性连杆实现膝肘转换的四足机器人",
+            },},{id: "projects-八自由度并联四足机器人",
+          title: '八自由度并联四足机器人',
+          description: "基于筝形四连杆机构的轻量化并联机器人，获国家级大创立项。",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
+              window.location.href = "/projects/8dof/";
             },},{id: "projects-xhand主动外骨骼",
           title: 'XHand主动外骨骼',
           description: "基于开源项目DexUMI,核心目标为实现主从转换DAgger",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
+              window.location.href = "/projects/exoxhand/";
+            },},{id: "projects-全向移动机器人平台",
+          title: '全向移动机器人平台',
+          description: "基于麦克纳姆轮的灵活移动平台，支持复杂路径规划。",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/infantry/";
+            },},{id: "projects-其他科研与竞赛项目",
+          title: '其他科研与竞赛项目',
+          description: "包含月壤采集机器人、机构创新设计等。",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/others/";
+            },},{id: "projects-精确轨迹新能源凸轮车",
+          title: '精确轨迹新能源凸轮车',
+          description: "基于高精度凸轮转向机构的温差电动车。",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/seebeck/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
