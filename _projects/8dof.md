@@ -2,7 +2,7 @@
 layout: page
 title: 八自由度并联四足机器人
 description: 基于筝形四连杆机构的轻量化并联机器人，获国家级大创立项。
-img: assets/img/四足.png
+img: assets/img/四足正方.png
 importance: 1
 category: work
 ---
@@ -14,6 +14,13 @@ category: work
 1. **并联机构设计**：创新性地利用筝形四连杆机构，有效提升了足端爆发力，减少腿部惯量并降低了电机负载。
 2. **轻量化优化**：通过计算机辅助设计（CAD），在保证强度的前提下,通过材料优化、形状优化对机架进行了减重处理。
 3. **仿真与测试**：针对高运动性能需求，对足端材料和尺寸进行了迭代优化，并通过 Adams 进行动力学仿真。
+
+### 实物展示
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/四足.png" title="比赛靓照" class="img-fluid rounded z-depth-1" %}
+    </div>    
+</div>
 
 ### 演示视频
 <div class="row justify-content-sm-center">

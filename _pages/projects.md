@@ -1,8 +1,8 @@
 ---
 layout: page
-title: projects
+title: project
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: 努力成为优秀的工程师
 nav: true
 nav_order: 3
 display_categories: [work, fun]

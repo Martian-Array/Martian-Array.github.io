@@ -18,7 +18,7 @@ category: work
         {% include figure.liquid loading="eager" path="assets/img/直驱舵.png" title="直驱舵" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/差速舵.png" title="差速舵" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/差速舵.png" title="差速舵" class=s"img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/CURC.png" title="在研" class="img-fluid rounded z-depth-1" %}
@@ -28,7 +28,6 @@ category: work
 
 ### 项目二：轴系入门课
 面向大一、大二机器人队预备队员开展的培训入门课程，详细讲解了轴承与机器人轴系设计。
-
 
 
 ---
