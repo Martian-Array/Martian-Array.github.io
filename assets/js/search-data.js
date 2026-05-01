@@ -424,7 +424,7 @@ ninja.data = [{
               window.location.href = "/projects/infantry/";
             },},{id: "projects-其他科研与竞赛项目",
           title: '其他科研与竞赛项目',
-          description: "包含月壤采集机器人、机构创新设计等。",
+          description: "在ROBOCON比赛及平时做过的一些小设计。",
           section: "Projects",handler: () => {
               window.location.href = "/projects/others/";
             },},{id: "projects-精确轨迹新能源凸轮车",
