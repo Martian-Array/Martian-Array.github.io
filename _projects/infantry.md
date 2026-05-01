@@ -4,7 +4,7 @@ title: 全向移动机器人平台
 description: 基于麦克纳姆轮的灵活移动平台，支持复杂路径规划。
 img: assets/img/Omni.png
 importance: 3
-category: work
+category: fun
 ---
 
 ### 项目概述
