@@ -9,9 +9,9 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
+  },{id: "nav-project",
+          title: "project",
+          description: "努力成为优秀的工程师",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -402,9 +402,9 @@ ninja.data = [{
           description: "全国大学生机器人大赛首台通过刚性连杆实现膝肘转换的四足机器人",
           section: "Projects",handler: () => {
               window.location.href = "/projects/12dof/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+            },},{id: "projects-基于stm32对amazinghand的复现",
+          title: '基于stm32对AmazingHand的复现',
+          description: "机电一体化课程设计，正在进行中",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
             },},{id: "projects-八自由度并联四足机器人",
