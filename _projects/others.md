@@ -3,7 +3,7 @@ layout: page
 title: 其他科研与竞赛项目
 description: 在ROBOCON比赛及平时做过的一些小设计。
 img: assets/img/CURC.png
-importance: 4
+importance: 5
 category: work
 ---
 

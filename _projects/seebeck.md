@@ -3,7 +3,7 @@ layout: page
 title: 精确轨迹新能源凸轮车
 description: 基于高精度凸轮转向机构的温差电动车。
 img: assets/img/工创.png
-importance: 2
+importance: 3
 category: work
 ---
 
