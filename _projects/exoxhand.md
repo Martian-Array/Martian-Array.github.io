@@ -2,7 +2,7 @@
 layout: page
 title: XHand主动外骨骼
 description: 基于开源项目DexUMI,核心目标为实现主从转换DAgger
-img: assets/img/exoxhand1.png
+img: assets/img/exohand1.png
 importance: 4
 category: work
 ---
@@ -18,7 +18,15 @@ category: work
 ### 实物展示
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/onhand.png" title="外骨骼佩戴在手上的实物照片" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid 
+    loading="eager" 
+    path="assets/img/onhand.png" 
+    title="外骨骼佩戴在手上的实物照片" 
+    class="img-fluid rounded z-depth-1"
+    style="max-width: 60%;"  <!-- 50%=更小，80%=稍大 -->
+
+       %}
+       <h6 class="mt-2 text-muted font-weight-light">外骨骼佩戴在手上的实物照片</h6>
     </div>    
 </div>
 
