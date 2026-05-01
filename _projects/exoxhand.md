@@ -23,7 +23,7 @@ category: work
     path="assets/img/onhand.png" 
     title="外骨骼佩戴在手上的实物照片" 
     class="img-fluid rounded z-depth-1"
-    style="max-width: 60%;"  <!-- 50%=更小，80%=稍大 -->
+    style="max-width: 30%;"  <!-- 50%=更小，80%=稍大 -->
 
        %}
        <h6 class="mt-2 text-muted font-weight-light">外骨骼佩戴在手上的实物照片</h6>

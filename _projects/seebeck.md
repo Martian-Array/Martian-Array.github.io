@@ -2,7 +2,7 @@
 layout: page
 title: 精确轨迹新能源凸轮车
 description: 基于高精度凸轮转向机构的温差电动车。
-img: assets/img/工创.png
+img: assets/img/工训赛一角.png
 importance: 3
 category: work
 ---
@@ -26,6 +26,13 @@ category: work
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/国赛车.jpg" title="国赛车" class="img-fluid rounded z-depth-1" %}
     </div>
+</div>
+
+### 决赛轨迹示意
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/工创.png" title="路线示意" class="img-fluid rounded z-depth-1" %}
+    </div>    
 </div>
 
 ### 获得奖项
