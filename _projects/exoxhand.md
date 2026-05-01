@@ -18,14 +18,7 @@ category: work
 ### 实物展示
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid 
-    loading="eager" 
-    path="assets/img/onhand.png" 
-    title="外骨骼佩戴在手上的实物照片" 
-    class="img-fluid rounded z-depth-1"
-    style="max-width: 30%;"  <!-- 50%=更小，80%=稍大 -->
-
-       %}
+        {% include figure.liquid loading="eager" path="assets/img/onhand.png" title="外骨骼佩戴在手上的实物照片" class="img-fluid rounded z-depth-1" style="max-width: 30%;" %}
        <h6 class="mt-2 text-muted font-weight-light">外骨骼佩戴在手上的实物照片</h6>
     </div>    
 </div>
