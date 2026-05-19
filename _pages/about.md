@@ -5,11 +5,12 @@ permalink: /
 subtitle: Undergraduate Researcher in Embodied Robotics at Central South University
 profile:
   align: right
-  image: prof_pic.png
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: |
-  <p>📧 wyu5714@163.com</p>
-  <p>📍 Changsha, China</p>
+  more_info: >
+    <p>wyu5714@163.com</p>
+
+    <p>Changsha,China</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -28,9 +29,9 @@ latest_posts:
 ## 关于我 (About Me)
 Hi！我是 **王煜**。中南大学机械专业大三在读，拥有丰富的国家级机器人竞赛经验（共获国家级奖项9项）。擅长机器人本体结构设计，不断探索运动控制与感知技术。此页面将持续更新~
 
-我目前专注于以下问题：
+我目前专注于以下问题：123
 * 足式机器人本体设计
-* 足式机器人运动控制
+* 足式机器人运动控制  
 
 [下载我的简历](/assets/pdf/my_cv.pdf) / [查看我的项目](/projects/)
  -->
@@ -54,7 +55,6 @@ Hi！我是 **王煜**。中南大学机械专业大三在读，拥有丰富的�
     <h5 style="border-bottom: 2px solid var(--global-theme-color); display: inline-block;">Technical Skills</h5>
     <div style="margin-top: 10px; line-height: 1.9;">
 
-  
   <small>
     <b>CAD & Simulation:</b>
     SolidWorks (Proficient), Fusion 360, AutoCAD,
@@ -96,8 +96,7 @@ Hi！我是 **王煜**。中南大学机械专业大三在读，拥有丰富的�
         font-size: 1rem;
         font-weight: 400;
     ">CV</a>
-    
-    <a href="/projects/" class="btn z-depth-1" style="
+        <a href="/projects/" class="btn z-depth-1" style="
         background-color: transparent; 
         color: var(--global-theme-color); 
         border: 1px solid var(--global-theme-color); 
@@ -108,5 +107,4 @@ Hi！我是 **王煜**。中南大学机械专业大三在读，拥有丰富的�
         font-weight: 400;
     ">Research Projects</a>
 </div>
-
 
