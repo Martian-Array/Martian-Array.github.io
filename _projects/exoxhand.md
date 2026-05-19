@@ -1,7 +1,7 @@
 ---
 layout: page
-title: XHand主动外骨骼
-description: 基于开源项目DexUMI,核心目标为实现主从转换DAgger
+title: XHand Exoskeleton
+description: Based on the open-source project DexUMI, with the core goal of implementing teleoperation (master-slave) conversion via DAgger.
 img: assets/img/exohand1.png
 importance: 4
 category: work

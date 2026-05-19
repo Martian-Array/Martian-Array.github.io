@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 八自由度并联四足机器人
-description: 基于筝形四连杆机构的轻量化并联机器人，获国家级大创立项。
+title: 8-DOF Parallel Quadruped Robot
+description: A lightweight parallel robot based on a kite-shaped four-bar linkage mechanism; received a national-level Innovation and Entrepreneurship Training Program grant.
 img: assets/img/四足正方.png
 importance: 1
 category: work

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 精确轨迹新能源凸轮车
-description: 基于高精度凸轮转向机构的温差电动车。
+title: New Energy Cam-Steering Vehicle with Precise Trajectory
+description: An electric vehicle powered by temperature difference, featuring a high-precision cam-steering mechanism.
 img: assets/img/工训赛一角.png
 importance: 3
 category: work

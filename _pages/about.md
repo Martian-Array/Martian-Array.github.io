@@ -5,7 +5,7 @@ permalink: /about/
 subtitle: Undergraduate Researcher in Embodied Robotics at Central South University
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.JPG
   image_circular: false # crops the image to make it circular
   more_info: |
     <p>📧 wyu5714@163.com</p>

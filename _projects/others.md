@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 其他科研与竞赛项目
-description: 在ROBOCON比赛及平时做过的一些小设计。
+title: Other Research & Competition Projects
+description: Some small designs from the ROBOCON competition and other personal work.
 img: assets/img/CURC.png
 importance: 5
 category: work

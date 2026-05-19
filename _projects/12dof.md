@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 十二自由度四足机器人（最新）
-description: 全国大学生机器人大赛首台通过刚性连杆实现膝肘转换的四足机器人
+title: 12-DOF Quadruped Robot (Latest)
+description: The first quadruped robot in CURC to achieve knee-elbow conversion via rigid linkages.
 img: assets/img/神奇的双连杆.png
 importance: 1
 category: work
