@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-team",
           title: "team",
-          description: "我的团队与实验室",
+          description: "team&amp;lab",
           section: "Navigation",
           handler: () => {
             window.location.href = "/team/";
