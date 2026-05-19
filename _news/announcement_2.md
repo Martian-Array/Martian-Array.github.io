@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Won six National Second Prizes at the 24th China University ROBOCON Competition, including racing, obstacle-crossing, and off-road challenges.
+Won six National Second Prizes at the 24th China University <a href="http://robocon.org.cn/sys-index/">ROBOCON</a> Competition, including racing, obstacle-crossing, and off-road challenges.

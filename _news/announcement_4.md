@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Attended the 2026 National Youth Robotics Engineer Conference at Shenzhen InnoX Academy.
+Attended the 2026 National Youth Robotics Engineer Conference at <a href="https://www.innoxsz.com/">Shenzhen InnoX Academy</a>.

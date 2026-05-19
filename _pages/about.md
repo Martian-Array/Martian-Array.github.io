@@ -37,7 +37,7 @@ Hi！我是 **王煜**。中南大学机械专业大三在读，拥有丰富的�
  -->
 
 <div class="main-bio" style="margin-bottom: 2rem;">
-  I am an undergraduate student in Mechanical Engineering at Central South University, with extensive experience in intelligent robotic systems development and competitive robotics. My work focuses on building real-world robotic platforms, including quadruped robots and dexterous teleoperation systems. I am particularly interested in the integration of robot hardware, control, and learning-based methods for embodied intelligence.
+  I am an undergraduate student in Mechanical Engineering at Central South University. My work focuses on <strong>quadruped robots and dexterous teleoperation systems</strong>, with particular interest in <strong>embodied intelligence</strong> through the integration of hardware, control, and learning.
 </div>
 
 <div class="row" style="margin-bottom: 2rem;">
@@ -53,12 +53,37 @@ Hi！我是 **王煜**。中南大学机械专业大三在读，拥有丰富的�
   </div>
   <div class="col-sm-6">
     <h5 style="border-bottom: 2px solid var(--global-theme-color); display: inline-block;">Technical Skills</h5>
-    <div style="margin-top: 10px; line-height: 1.8;">
-      <small><b>Robotics & Hardware:</b> Robotic System Design,Legged Robot Development,Embedded Systems (STM32),BLDC Motor Control,Mechanical System Integration</small><br>
-      <small><b>CAD & Simulation:</b> SolidWorks(proficient),Fusion 360,AutoCAD,MATLAB,ANSYS,Adams</small><br>
-      <small><b>Programming:</b> MATLAB,C/C++,Python</small><br>
-      <small><b>Programming:</b> MATLAB, C/C++,Python</small>
-    </div>
+    <div style="margin-top: 10px; line-height: 1.9;">
+
+  <small>
+    <b>Robotics & Hardware:</b>
+    Robotic System Design, Legged Robot Development,
+    Embedded Systems (STM32), BLDC Motor Control,
+    Mechanical System Integration
+  </small><br>
+
+  <small>
+    <b>CAD & Simulation:</b>
+    SolidWorks (Proficient), Fusion 360, AutoCAD,
+    MATLAB, ANSYS, Adams
+  </small><br>
+
+  <small>
+    <b>Programming:</b>
+    C/C++, Python, MATLAB
+  </small><br>
+
+  <small>
+    <b>Robotics & Learning Frameworks:</b>
+    ROS/ROS2, Mujoco, Isaac Gym, Isaac Sim, Webots
+  </small><br>
+
+  <small>
+    <b>Development Tools:</b>
+    Linux, Git, Docker, Conda, CMake
+  </small>
+
+</div>
   </div>
 </div>
 

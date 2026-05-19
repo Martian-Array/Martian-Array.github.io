@@ -29,17 +29,17 @@ nav_order: 8
       
       <!-- 团队名称 -->
       <h2 style="margin: 0 0 12px 0; color: var(--global-theme-color); font-size: 1.8rem; font-weight: 700;">
-        中南大学EK机器人队
+        CSU ROBOCON-EK Robotics Team
       </h2>
       
       <!-- 描述 -->
       <p style="margin: 0 0 20px 0; color: var(--global-text-color-light); font-size: 1rem; line-height: 1.6;">
-        成立于 2020 年 10 月，由原 EUT 战队、KK 机器人战队、原航空航天学院航模协会合并而成。聚焦机器人竞赛与工程创新。
+        Founded in October 2020 through the merger of the former EUT Team, KK Robotics Team, and the Aero-Modeling Association of the School of Aeronautics and Astronautics. Focusing on robotics competitions and engineering innovation.
       </p>
       
       <!-- 链接提示 -->
       <div style="color: var(--global-theme-color); font-weight: 600; font-size: 0.95rem; display: flex; align-items: center; justify-content: center; gap: 8px;">
-        <span>访问官网</span>
+        <span>Visit Website</span>
         <i class="fa-solid fa-arrow-up-right" style="font-size: 0.8rem;"></i>
       </div>
     </div>
