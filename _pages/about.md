@@ -5,7 +5,7 @@ permalink: /
 subtitle: Undergraduate Researcher in Embodied Robotics at Central South University
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.png
   image_circular: false # crops the image to make it circular
   more_info: |
   <p>📧 wyu5714@163.com</p>
@@ -108,4 +108,5 @@ Hi！我是 **王煜**。中南大学机械专业大三在读，拥有丰富的�
         font-weight: 400;
     ">Research Projects</a>
 </div>
+
 
