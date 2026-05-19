@@ -37,7 +37,7 @@ Hi！我是 **王煜**。中南大学机械专业大三在读，拥有丰富的�
  -->
 
 <div class="main-bio" style="margin-bottom: 2rem;">
-  My research interests lie in embodied AI and intelligent robotic systems, particularly legged robots, dexterous teleoperation, and robot learning. I have extensive experience in developing real-world robotic platforms, with a focus on bridging robot hardware, control, and learning-based methods.
+  I am an undergraduate student in Mechanical Engineering at Central South University, with extensive experience in intelligent robotic systems development and competitive robotics. My work focuses on building real-world robotic platforms, including quadruped robots and dexterous teleoperation systems. I am particularly interested in the integration of robot hardware, control, and learning-based methods for embodied intelligence.
 </div>
 
 <div class="row" style="margin-bottom: 2rem;">
@@ -54,9 +54,10 @@ Hi！我是 **王煜**。中南大学机械专业大三在读，拥有丰富的�
   <div class="col-sm-6">
     <h5 style="border-bottom: 2px solid var(--global-theme-color); display: inline-block;">Technical Skills</h5>
     <div style="margin-top: 10px; line-height: 1.8;">
-      <small><b>结构设计:</b> SolidWorks, Fusion360, AutoCAD</small><br>
-      <small><b>嵌入式:</b> STM32 开发, Python, C++</small><br>
-      <small><b>仿真与计算:</b> MATLAB, Adams, GeoGebra，ANSYS</small>
+      <small><b>Robotics & Hardware:</b> Robotic System Design,Legged Robot Development,Embedded Systems (STM32),BLDC Motor Control,Mechanical System Integration</small><br>
+      <small><b>CAD & Simulation:</b> SolidWorks(proficient),Fusion 360,AutoCAD,MATLAB,ANSYS,Adams</small><br>
+      <small><b>Programming:</b> MATLAB,C/C++,Python</small><br>
+      <small><b>Programming:</b> MATLAB, C/C++,Python</small>
     </div>
   </div>
 </div>

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-全新结构、部署强化运控的12dof四足机器人设计启动。
+Started the development of a novel 12-DOF quadruped robot platform with reinforcement-learning-oriented locomotion control.

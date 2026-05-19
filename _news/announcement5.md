@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-加入中南大学RoboMaster-FYT战队。
+Joined the RoboMaster-FYT Team at Central South University.

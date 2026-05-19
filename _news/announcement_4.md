@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-赴深圳科创学院参加2026年全国大学生机器人青年工程师大会进行激情交流。
+Attended the 2026 National Youth Robotics Engineer Conference at Shenzhen InnoX Academy.

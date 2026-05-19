@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-加入中南大学ROBOCON-EK机器人队。
+Joined the <a href="https://ekcsu.team">ROBOCON-EK Robotics Team</a> at Central South University.

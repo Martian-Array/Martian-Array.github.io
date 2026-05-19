@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-于清华大学智能产业研究院（AIR）师从赵昊老师开展具身领域研究。
+Joined AIR, Tsinghua University, working with <a href="https://sites.google.com/view/fromandto/">Hao Zhao</a> on embodied robotics and dexterous teleoperation research.

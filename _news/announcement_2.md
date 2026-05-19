@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-参加第二十四届全国大学生ROBOCON机器人大赛，并拿下竞速赛、障碍赛、越野赛等六项全国二等奖的成绩！
+Won six National Second Prizes at the 24th China University ROBOCON Competition, including racing, obstacle-crossing, and off-road challenges.

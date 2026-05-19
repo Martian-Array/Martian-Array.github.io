@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-创建中南大学仿生足式机器人队。
+Founded the Bionic Legged Robotics Team at Central South University.
