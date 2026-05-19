@@ -2,7 +2,7 @@
 layout: page
 title: project
 permalink: /projects/
-description: 努力成为优秀的工程师
+description: Still waters run deep
 nav: true
 nav_order: 3
 display_categories: [work, fun]
