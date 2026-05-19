@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: a Robotics enthusiasts of Central South University
-
+subtitle: Undergraduate Researcher in Embodied Robotics at Central South University
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>wyu5714@163.com        </p>
+    <p>wyu5714@163.com</p>
+
     <p>Changsha,China</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -37,19 +37,22 @@ Hi！我是 **王煜**。中南大学机械专业大三在读，拥有丰富的�
  -->
 
 <div class="main-bio" style="margin-bottom: 2rem;">
-  您好！我是 <strong>王煜</strong>。中南大学机械专业大三在读。我拥有丰富的机器人竞赛经验（共获 9 项国家级奖项），擅长机器人本体结构设计，不断探索运动控制与感知技术。
+  My research interests lie in embodied AI and intelligent robotic systems, particularly legged robots, dexterous teleoperation, and robot learning. I have extensive experience in developing real-world robotic platforms, with a focus on bridging robot hardware, control, and learning-based methods.
 </div>
 
 <div class="row" style="margin-bottom: 2rem;">
   <div class="col-sm-6">
-    <h5 style="border-bottom: 2px solid var(--global-theme-color); display: inline-block;">研究兴趣</h5>
+    <h5 style="border-bottom: 2px solid var(--global-theme-color); display: inline-block;">Research Interests</h5>
     <ul style="padding-left: 1.2rem; margin-top: 10px;">
-      <li>足式机器人本体设计</li>
-      <li>足式机器人运动控制</li>
+      <li>Legged Locomotion</li>
+      <li>Robot Learning</li>
+      <li>Dexterous Manipulation</li>
+      <li>Human-Robot Interaction</li>
+      <li>Novel Legged Robot Mechanism Design</li>
     </ul>
   </div>
   <div class="col-sm-6">
-    <h5 style="border-bottom: 2px solid var(--global-theme-color); display: inline-block;">技术栈</h5>
+    <h5 style="border-bottom: 2px solid var(--global-theme-color); display: inline-block;">Technical Skills</h5>
     <div style="margin-top: 10px; line-height: 1.8;">
       <small><b>结构设计:</b> SolidWorks, Fusion360, AutoCAD</small><br>
       <small><b>嵌入式:</b> STM32 开发, Python, C++</small><br>
@@ -66,7 +69,7 @@ Hi！我是 **王煜**。中南大学机械专业大三在读，拥有丰富的�
         padding: 6px 20px; 
         font-size: 1rem;
         font-weight: 400;
-    ">查看简历</a>
+    ">CV</a>
     
     <a href="/projects/" class="btn z-depth-1" style="
         background-color: transparent; 
@@ -77,6 +80,6 @@ Hi！我是 **王煜**。中南大学机械专业大三在读，拥有丰富的�
         padding: 6px 20px; 
         font-size: 1rem;
         font-weight: 400;
-    ">查看项目详情</a>
+    ">Research Projects</a>
 </div>
 
