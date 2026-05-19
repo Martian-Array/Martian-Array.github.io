@@ -7,10 +7,9 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>wyu5714@163.com</p>
-
-    <p>Changsha,China</p>
+  more_info: |
+  <p>📧 wyu5714@163.com</p>
+  <p>📍 Changsha, China</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -40,10 +39,10 @@ Hi！我是 **王煜**。中南大学机械专业大三在读，拥有丰富的�
   I am an undergraduate student in Mechanical Engineering at Central South University. My work focuses on <strong>quadruped robots and dexterous teleoperation systems</strong>, with particular interest in <strong>embodied intelligence</strong> through the integration of hardware, control, and learning.
 </div>
 
-<div class="row" style="margin-bottom: 2rem;">
-  <div class="col-sm-6">
+<div class="row" style="margin-bottom: 2rem; gap: 1rem; align-items: start;">
+  <div class="col-lg-5 col-sm-12" style="padding-right: 1rem;">
     <h5 style="border-bottom: 2px solid var(--global-theme-color); display: inline-block;">Research Interests</h5>
-    <ul style="padding-left: 1.2rem; margin-top: 10px;">
+    <ul style="padding-left: 1.2rem; margin-top: 0.75rem; line-height: 1.9;">
       <li>Legged Locomotion</li>
       <li>Robot Learning</li>
       <li>Dexterous Manipulation</li>
@@ -51,40 +50,30 @@ Hi！我是 **王煜**。中南大学机械专业大三在读，拥有丰富的�
       <li>Novel Legged Robot Mechanism Design</li>
     </ul>
   </div>
-  <div class="col-sm-6">
+  <div class="col-lg-7 col-sm-12" style="padding-left: 1rem;">
     <h5 style="border-bottom: 2px solid var(--global-theme-color); display: inline-block;">Technical Skills</h5>
-    <div style="margin-top: 10px; line-height: 1.9;">
-
-  
-  <small>
-    <b>CAD & Simulation:</b>
-    SolidWorks (Proficient), Fusion 360, AutoCAD,
-    MATLAB, ANSYS, Adams
-  </small><br>
-
-  <small>
-    <b>Programming:</b>
-    C/C++, Python, MATLAB
-  </small><br>
-
-<small>
-    <b>Development Tools:</b>
-    Linux, Git, Docker, Conda
-  </small><br>
-
-<small>
-    <b>Robotics & Hardware:</b>
-    Robotic System Design, Legged Robot Development,
-    Embedded Systems, BLDC Motor Control,
-    Mechanical System Integration
-  </small><br>
-
-  <small>
-    <b>Robotics & Learning :</b>
-    URDF Modeling,ROS/ROS2(Learning), Mujoco(Learning), Isaac Lab(Learning)
-  </small>
-
-</div>
+    <div style="margin-top: 0.75rem; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem;">
+      <div style="background: rgba(0, 0, 0, 0.03); border-radius: 12px; padding: 1rem;">
+        <p style="margin: 0 0 0.75rem; font-weight: 600;">CAD & Simulation</p>
+        <p style="margin: 0; line-height: 1.7;">SolidWorks (Proficient), Fusion 360, AutoCAD, MATLAB, ANSYS, Adams</p>
+      </div>
+      <div style="background: rgba(0, 0, 0, 0.03); border-radius: 12px; padding: 1rem;">
+        <p style="margin: 0 0 0.75rem; font-weight: 600;">Programming</p>
+        <p style="margin: 0; line-height: 1.7;">C/C++, Python, MATLAB</p>
+      </div>
+      <div style="background: rgba(0, 0, 0, 0.03); border-radius: 12px; padding: 1rem;">
+        <p style="margin: 0 0 0.75rem; font-weight: 600;">Development Tools</p>
+        <p style="margin: 0; line-height: 1.7;">Linux, Git, Docker, Conda</p>
+      </div>
+      <div style="background: rgba(0, 0, 0, 0.03); border-radius: 12px; padding: 1rem;">
+        <p style="margin: 0 0 0.75rem; font-weight: 600;">Robotics & Hardware</p>
+        <p style="margin: 0; line-height: 1.7;">Robotic System Design, Legged Robot Development, Embedded Systems, BLDC Motor Control, Mechanical System Integration</p>
+      </div>
+      <div style="grid-column: 1 / -1; background: rgba(0, 0, 0, 0.03); border-radius: 12px; padding: 1rem;">
+        <p style="margin: 0 0 0.75rem; font-weight: 600;">Robotics & Learning</p>
+        <p style="margin: 0; line-height: 1.7;">URDF Modeling, ROS/ROS2, Mujoco, Isaac Lab</p>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -109,4 +98,3 @@ Hi！我是 **王煜**。中南大学机械专业大三在读，拥有丰富的�
         font-weight: 400;
     ">Research Projects</a>
 </div>
-
