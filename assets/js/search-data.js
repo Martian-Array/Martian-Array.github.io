@@ -3,29 +3,22 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-",
-    title: "",
+    id: "nav-about",
+    title: "about",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
   },{id: "nav-project",
           title: "project",
-          description: "努力成为优秀的工程师",
+          description: "Still waters run deep",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-cv",
-          title: "CV",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
         },{id: "nav-people",
           title: "people",
-          description: "志同道合的合作伙伴与技术战友",
+          description: "Like-minded partners and technical teammates",
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
@@ -404,39 +397,39 @@ ninja.data = [{
           section: "News",},{id: "news-started-the-development-of-a-novel-12-dof-quadruped-robot-platform-with-reinforcement-learning-oriented-locomotion-control",
           title: 'Started the development of a novel 12-DOF quadruped robot platform with reinforcement-learning-oriented locomotion...',
           description: "",
-          section: "News",},{id: "projects-十二自由度四足机器人-最新",
-          title: '十二自由度四足机器人（最新）',
-          description: "全国大学生机器人大赛首台通过刚性连杆实现膝肘转换的四足机器人",
+          section: "News",},{id: "projects-12-dof-quadruped-robot-latest",
+          title: '12-DOF Quadruped Robot (Latest)',
+          description: "The first quadruped robot in CURC to achieve knee-elbow conversion via rigid linkages.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/12dof/";
-            },},{id: "projects-基于stm32对amazinghand的复现",
-          title: '基于stm32对AmazingHand的复现',
-          description: "机电一体化课程设计，正在进行中",
+            },},{id: "projects-replication-of-quot-amazinghand-quot-based-on-stm32",
+          title: 'Replication of &amp;quot;AmazingHand&amp;quot; based on STM32',
+          description: "Mechatronics course design project, in progress.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
-            },},{id: "projects-八自由度并联四足机器人",
-          title: '八自由度并联四足机器人',
-          description: "基于筝形四连杆机构的轻量化并联机器人，获国家级大创立项。",
+            },},{id: "projects-8-dof-parallel-quadruped-robot",
+          title: '8-DOF Parallel Quadruped Robot',
+          description: "A lightweight parallel robot based on a kite-shaped four-bar linkage mechanism; received a national-level Innovation and Entrepreneurship Training Program grant.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8dof/";
-            },},{id: "projects-xhand主动外骨骼",
-          title: 'XHand主动外骨骼',
-          description: "基于开源项目DexUMI,核心目标为实现主从转换DAgger",
+            },},{id: "projects-xhand-exoskeleton",
+          title: 'XHand Exoskeleton',
+          description: "Based on the open-source project DexUMI, with the core goal of implementing teleoperation (master-slave) conversion via DAgger.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/exoxhand/";
-            },},{id: "projects-全向移动机器人平台",
-          title: '全向移动机器人平台',
-          description: "基于麦克纳姆轮的灵活移动平台，支持复杂路径规划。",
+            },},{id: "projects-omnidirectional-mobile-robot-platform",
+          title: 'Omnidirectional Mobile Robot Platform',
+          description: "Infantry in RoboMaster.A flexible mobile platform based on Mecanum wheels, supporting complex path planning.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/infantry/";
-            },},{id: "projects-其他科研与竞赛项目",
-          title: '其他科研与竞赛项目',
-          description: "在ROBOCON比赛及平时做过的一些小设计。",
+            },},{id: "projects-other-research-amp-competition-projects",
+          title: 'Other Research &amp;amp; Competition Projects',
+          description: "Some small designs from the ROBOCON competition and other personal work.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/others/";
-            },},{id: "projects-精确轨迹新能源凸轮车",
-          title: '精确轨迹新能源凸轮车',
-          description: "基于高精度凸轮转向机构的温差电动车。",
+            },},{id: "projects-new-energy-cam-steering-vehicle-with-precise-trajectory",
+          title: 'New Energy Cam-Steering Vehicle with Precise Trajectory',
+          description: "An electric vehicle powered by temperature difference, featuring a high-precision cam-steering mechanism.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/seebeck/";
             },},{id: "teachings-data-science-fundamentals",
