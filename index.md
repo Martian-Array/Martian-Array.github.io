@@ -24,16 +24,66 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-<!-- 
-## 关于我 (About Me)
-Hi！我是 **王煜**。中南大学机械专业大三在读，拥有丰富的国家级机器人竞赛经验（共获国家级奖项9项）。擅长机器人本体结构设计，不断探索运动控制与感知技术。此页面将持续更新~
 
-我目前专注于以下问题：
-* 足式机器人本体设计
-* 足式机器人运动控制
+I am an undergraduate student in Mechanical Engineering at Central South University. My work focuses on **quadruped robots and dexterous teleoperation systems**, with particular interest in **embodied intelligence** through the integration of hardware, control, and learning.
 
-[下载我的简历](/assets/pdf/my_cv.pdf) / [查看我的项目](/projects/)
- -->
+## Research Interests
+
+- Legged Locomotion
+- Robot Learning
+- Dexterous Manipulation
+- Human-Robot Interaction
+- Novel Legged Robot Mechanism Design
+
+## Technical Skills
+
+**CAD & Simulation:**
+SolidWorks (Proficient), Fusion 360, AutoCAD, MATLAB, ANSYS, Adams
+
+**Programming:**
+C/C++, Python, MATLAB
+
+**Development Tools:**
+Linux, Git, Docker, Conda
+
+**Robotics & Hardware:**
+Robotic System Design, Legged Robot Development, Embedded Systems, BLDC Motor Control, Mechanical System Integration
+
+**Robotics & Learning:**
+URDF Modeling, ROS/ROS2 (Learning), Mujoco (Learning), Isaac Lab (Learning)
+
+---
+
+[📄 CV](/assets/pdf/CV_WangYu_CN.pdf){: .btn .btn-primary}
+[🚀 Research Projects](/projects/){: .btn}
+
+
+<!-- ---
+layout: about
+title: about
+permalink: /
+subtitle: Undergraduate Researcher in Embodied Robotics at Central South University
+profile:
+  align: right
+  image: prof_pic.jpg
+  image_circular: false # crops the image to make it circular
+  more_info: |
+    <p>📧 wyu5714@163.com</p>
+    <p>📍 Changsha, China</p>
+
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit:  # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: false
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
+---
 
 <div class="main-bio" style="margin-bottom: 2rem;">
   I am an undergraduate student in Mechanical Engineering at Central South University. My work focuses on <strong>quadruped robots and dexterous teleoperation systems</strong>, with particular interest in <strong>embodied intelligence</strong> through the integration of hardware, control, and learning.
@@ -107,4 +157,4 @@ Hi！我是 **王煜**。中南大学机械专业大三在读，拥有丰富的�
         font-weight: 400;
     ">Research Projects</a>
 </div>
-
+ -->
