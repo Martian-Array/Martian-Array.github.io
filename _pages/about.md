@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>wyu571428@gmail.com</p>
+    <p>wyu5714@163.com</p>
     <p>Changsha,China</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -45,7 +45,7 @@ Hi！我是 **王煜**。中南大学机械专业大三在读，拥有丰富的�
     <h5 style="border-bottom: 2px solid var(--global-theme-color); display: inline-block;">研究兴趣</h5>
     <ul style="padding-left: 1.2rem; margin-top: 10px;">
       <li>足式机器人本体设计</li>
-      <li>足式机器人强化学习</li>
+      <li>足式机器人运动控制</li>
     </ul>
   </div>
   <div class="col-sm-6">
@@ -66,7 +66,7 @@ Hi！我是 **王煜**。中南大学机械专业大三在读，拥有丰富的�
         padding: 6px 20px; 
         font-size: 1rem;
         font-weight: 400;
-    ">下载简历 (PDF)</a>
+    ">查看简历</a>
     
     <a href="/projects/" class="btn z-depth-1" style="
         background-color: transparent; 
