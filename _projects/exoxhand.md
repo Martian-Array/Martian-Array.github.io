@@ -22,9 +22,14 @@ category: work
        <h6 class="mt-2 text-muted font-weight-light">外骨骼佩戴在手上的实物照片</h6>
     </div>    
 </div>
-
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/双手实物图片.png" title="外骨骼佩戴在手上的实物照片" class="img-fluid rounded z-depth-1" style="max-width: 30%;" %}
+       <h6 class="mt-2 text-muted font-weight-light">双手实物图片</h6>
+    </div>    
+</div>
 ### 项目成果
-AIR冬令营项目，拟投稿CoRL2026
+AIR冬令营项目，拟投稿ICRA 2027
 
 ---
 
