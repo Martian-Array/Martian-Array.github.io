@@ -55,13 +55,7 @@ Hi！我是 **王煜**。中南大学机械专业大三在读，拥有丰富的�
     <h5 style="border-bottom: 2px solid var(--global-theme-color); display: inline-block;">Technical Skills</h5>
     <div style="margin-top: 10px; line-height: 1.9;">
 
-  <small>
-    <b>Robotics & Hardware:</b>
-    Robotic System Design, Legged Robot Development,
-    Embedded Systems (STM32), BLDC Motor Control,
-    Mechanical System Integration
-  </small><br>
-
+  
   <small>
     <b>CAD & Simulation:</b>
     SolidWorks (Proficient), Fusion 360, AutoCAD,
@@ -73,14 +67,21 @@ Hi！我是 **王煜**。中南大学机械专业大三在读，拥有丰富的�
     C/C++, Python, MATLAB
   </small><br>
 
-  <small>
-    <b>Robotics & Learning Frameworks:</b>
-    ROS/ROS2, Mujoco, Isaac Gym, Isaac Sim, Webots
+<small>
+    <b>Development Tools:</b>
+    Linux, Git, Docker, Conda
+  </small><br>
+
+<small>
+    <b>Robotics & Hardware:</b>
+    Robotic System Design, Legged Robot Development,
+    Embedded Systems, BLDC Motor Control,
+    Mechanical System Integration
   </small><br>
 
   <small>
-    <b>Development Tools:</b>
-    Linux, Git, Docker, Conda, CMake
+    <b>Robotics & Learning :</b>
+    URDF Modeling,ROS/ROS2(Learning), Mujoco(Learning), Isaac Lab(Learning)
   </small>
 
 </div>

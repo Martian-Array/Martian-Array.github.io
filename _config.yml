@@ -13,7 +13,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Interested in robotics, dexterous manipulation, hand exoskeletons,
   reinforcement learning, and embodied AI.
 footer_text: >
-  © Copyright 2026 Yu Wang. Powered by Jekyll with al-folio theme.
+  Powered by Jekyll with al-folio theme.
 keywords: robotics, dexterous hand, exoskeleton, embodied ai, reinforcement learning # add your own keywords or leave empty
 lang: zh-CN # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 👾 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)

@@ -2,7 +2,7 @@
 layout: page
 permalink: /team/
 title: team
-description: 我的团队与实验室
+description: team&lab
 nav: true
 nav_order: 8
 ---
