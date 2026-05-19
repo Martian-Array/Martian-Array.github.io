@@ -1,7 +1,7 @@
 ---
 layout: about
 title: about
-permalink: /
+permalink: /about/
 subtitle: Undergraduate Researcher in Embodied Robotics at Central South University
 profile:
   align: right
