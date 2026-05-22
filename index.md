@@ -26,7 +26,7 @@ latest_posts:
 ---
 
 <div class="main-bio" style="margin-bottom: 2rem;">
-  I am an undergraduate student in Mechanical Engineering at Central South University. My work focuses on <strong>quadruped robots and dexterous teleoperation systems</strong>, with particular interest in <strong>embodied intelligence</strong> through the integration of hardware, control, and learning.
+  I am an undergraduate student in Mechanical Engineering at Central South University. My work focuses on <strong>quadruped robots</strong> and dexterous<strong> teleoperation systems</strong>, with particular interest in embodied intelligence through the <strong>integration of hardware, control, and learning</strong>.
 </div>
 
 <div class="row" style="margin-bottom: 2rem;">

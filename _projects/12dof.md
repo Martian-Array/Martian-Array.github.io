@@ -3,7 +3,7 @@ layout: page
 title: 12-DOF Quadruped Robot (Latest)
 description: The first quadruped robot in CURC to achieve knee-elbow conversion via rigid linkages.
 img: assets/img/神奇的双连杆.png
-importance: 1
+importance: 2
 category: work
 ---
 
