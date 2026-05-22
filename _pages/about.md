@@ -25,7 +25,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an undergraduate student in Mechanical Engineering at Central South University. My work focuses on **quadruped robots and dexterous teleoperation systems**, with particular interest in **embodied intelligence** through the integration of hardware, control, and learning.
+Hi！I am Yu Wang(王煜),an undergraduate student in Mechanical Engineering at Central South University. My work focuses on **quadruped robots and dexterous teleoperation systems**, with particular interest in **embodied intelligence** through the integration of hardware, control, and learning.
 
 ## Research Interests
 
